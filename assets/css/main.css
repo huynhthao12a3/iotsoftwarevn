@@ -1,0 +1,73 @@
+body{
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   color: #000;
+}
+
+#loading {
+   width: 100%;
+   height: 100vh;
+   z-index: 9999;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #fff;
+}
+
+/* ========== HEADER ========== */
+header {
+   height: 100px;
+   width: 100%;
+   background-color: #fff;
+   z-index: 1000;
+}
+
+
+.nav-item-link{
+   color: #000;
+}
+
+.nav-item-link:hover,
+.nav-item-link--active {
+   border-bottom: 4px solid var(--primary-color);
+   color:  var(--foreign-color);
+   background-color: #333;
+}
+
+.phone-number a {
+   color: var(--primary-color);
+}
+
+/* End HEADER */
+
+/* ========= INTRO ========== */
+/* #intro {
+   height: 50vh;
+   background-image: url(../img/intro-iotcity.png);
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-position: center center;
+} */
+.carousel-img {
+   height: 50vh;
+}
+
+/* End INTRO */
+
+/* ========= ABOUT ========== */
+#about h1 strong {
+   color: var(--primary-color);
+}
+#about img {
+   max-height: 320px ;
+}
+#about p{
+   color: #333;
+   text-align: justify;
+}
+
+#about p::first-letter{
+   font-size: 22px;
+}
+/* End ABOUT */
+
