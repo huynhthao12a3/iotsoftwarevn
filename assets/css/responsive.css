@@ -9,10 +9,8 @@
    }
 }
 
-@media (max-width: 767px){
-   .header-logo {
-      width: 50px;
-   }
+@media (max-width: 991px){
+   
    #navbar {
       display: none;
       background-color: #edeff1;

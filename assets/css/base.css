@@ -1,6 +1,6 @@
 :root{
    --primary-color: #FFA506;
-   --foreign-color: rgb(254, 209, 84);
+   --foreign-color: #fed152;
 }
 
 .pt-100{
@@ -25,4 +25,41 @@ body{
 }
 html {
    overflow-x: hidden;
+}
+
+.logo-name__item{
+   height: 60px;
+   width: 60px;
+   background-color: #BDCBD4;
+   border: 2px solid #FFD152;
+}
+.logo-name__item-1,
+.logo-name__item-2,
+.logo-name__item-3{
+   height: 34px;
+   width: 10px;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   margin-left: 2px;
+   margin-right: 2px;
+}
+.logo-name__item-1 {
+   background-color: #fff;
+}
+.logo-name__item-2 {
+   background-color: #FFD152;
+}
+.logo-name__item-3 {
+   background-color: #663100;
+}
+.logo-name__desc{
+   color: var(--foreign-color);
+}
+.logo-name__desc-1{
+   font-family: 'Roboto Mono', 'Roboto';
+   font-size: 36px;
+}
+.logo-name__desc-1{
 }

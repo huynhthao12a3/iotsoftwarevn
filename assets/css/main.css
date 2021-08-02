@@ -18,13 +18,9 @@ header {
    z-index: 1000;
 }
 
-.header-name {
-   font-family: "Roboto Mono", "Roboto";
-   color: var(--primary-color);
 
-}
 #nav-icon{
-   color: var(--primary-color);
+   color: var(--foreign-color);
 }
 
 #navbar-icon--close {
@@ -42,7 +38,7 @@ header {
 }
 
 .phone-number a {
-   color: var(--primary-color);
+   color: var(--foreign-color);
 }
 
 @keyframes navbarIsOpen {
