@@ -1,6 +1,6 @@
 :root{
    --primary-color: #FFA506;
-   --foreign-color: #FED154;
+   --foreign-color: rgb(254, 209, 84);
 }
 
 .pt-100{
@@ -14,4 +14,15 @@
 }
 .mb-100{
    margin-bottom: 100px;
+}
+
+body{
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   color: #000;
+   overflow: hidden;
+
+}
+html {
+   overflow-x: hidden;
 }

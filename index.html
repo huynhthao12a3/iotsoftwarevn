@@ -12,7 +12,10 @@
 
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>IOT Software - Công ty thiết kế phần mềm, website chuyên nghiệp</title>
+   <title>IOT Software VN - Công ty thiết kế phần mềm,website chuyên nghiệp</title>
+
+   <link rel="icon" type="image/png" href="./assets/img/small-logo.png">
+
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link
@@ -25,6 +28,7 @@
    <link rel="stylesheet" href="./assets/css/reset.css">
    <link rel="stylesheet" href="./assets/css/base.css">
    <link rel="stylesheet" href="./assets/css/main.css">
+   <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 
 <body>
@@ -38,39 +42,46 @@
    <header class="shadow-lg position-fixed top-0 start-0 end-0">
       <div class="container h-100">
          <div class="row h-100 align-items-center justify-content-between">
-            <div class="col-2 ">
-               <img src="./assets/img/large-logo.png" alt="logo-iot-software-vn">
+            <div class="col-4 col-md-2 d-flex align-items-center justify-content-center ">
+               <img class="img-fluid" src="./assets/img/large-logo.png" alt="logo-iot-software-vn">
             </div>
-            <div class="col-8 ">
-               <nav class="text-center">
-                  <ul class="nav-list list-unstyled ">
-                     <li class="nav-item d-inline-block">
-                        <a href="#"
-                           class="nav-item-link nav-item-link--active rounded text-decoration-none text-uppercase px-4 py-3">Trang
-                           Chủ</a>
-                     </li>
-                     <li class="nav-item d-inline-block">
-                        <a href="#" class="nav-item-link rounded text-decoration-none text-uppercase px-4 py-3">Giới
-                           Thiệu</a>
-                     </li>
-                     <li class="nav-item d-inline-block">
-                        <a href="#" class="nav-item-link rounded text-decoration-none text-uppercase px-4 py-3">Dịch
-                           Vụ</a>
-                     </li>
-                     <li class="nav-item d-inline-block">
-                        <a href="#" class="nav-item-link rounded text-decoration-none text-uppercase px-4 py-3">Tin
-                           Tức</a>
-                     </li>
-                     <li class="nav-item d-inline-block">
-                        <a href="#" class="nav-item-link rounded text-decoration-none text-uppercase px-4 py-3">Liên
-                           Hệ</a>
-                     </li>
-                  </ul>
-               </nav>
+            <div id="nav-icon" class="col-2 col-md-0 p-2 text-center d-md-none">
+               <i id="navbar-icon--open" class="fas fa-bars fs-1"></i>
+               <i id="navbar-icon--close" class="fas fa-times fs-1"></i>
+            </div>
+            <nav id="navbar" class="col-0 col-md-10 col-lg-8 text-center pt-5 pt-md-0 px-3 px-md-0 ">
+               <ul class="nav-list list-unstyled ">
+                  <li class="nav-item my-3 my-md-0 d-block d-md-inline-block">
+                     <a href="#"
+                        class="nav-item-link nav-item-link--active d-block rounded text-decoration-none text-uppercase p-4 pt-xl-3">Trang
+                        Chủ</a>
+                  </li>
+                  <li class="nav-item my-3 my-md-0 d-block d-md-inline-block">
+                     <a href="#"
+                        class="nav-item-link d-block rounded text-decoration-none text-uppercase p-4 pt-xl-3">Giới
+                        Thiệu</a>
+                  </li>
+                  <li class="nav-item my-3 my-md-0 d-block d-md-inline-block">
+                     <a href="#"
+                        class="nav-item-link d-block rounded text-decoration-none text-uppercase p-4 pt-xl-3">Dịch
+                        Vụ</a>
+                  </li>
+                  <li class="nav-item my-3 my-md-0 d-block d-md-inline-block">
+                     <a href="#"
+                        class="nav-item-link d-block rounded text-decoration-none text-uppercase p-4 pt-xl-3">Tin
+                        Tức</a>
+                  </li>
+                  <li class="nav-item my-3 my-md-0 d-block d-md-inline-block">
+                     <a href="#"
+                        class="nav-item-link d-block rounded text-decoration-none text-uppercase p-4 pt-xl-3">Liên
+                        Hệ</a>
+                  </li>
+               </ul>
+            </nav>
 
-            </div>
-            <div class="col-2 phone-number">
-               <span class="d-flex justify-content-end pb-2">Contact us</span>
+
+            <div class="col-lg-2 d-none d-lg-block phone-number">
+               <span class="d-flex justify-content-end pb-2"><i class="fas fa-phone-square fs-3"></i></span>
                <a class="text-decoration-none d-flex justify-content-end" href="tel:0978938760"> 097 893 87 60</a>
             </div>
          </div>
@@ -113,18 +124,18 @@
    <!-- TITLE -->
    <section id="about" class="py-5">
       <div class="container">
-         <h1 class="fs-1 text-center lh-sm" data-aos="fade-down" data-aos-duration="1700">Công ty thiết kế phần mềm,
+         <h1 class="fs-1 text-center lh-sm" data-aos="fade-down">Công ty thiết kế phần mềm,
             website </br>
             <strong>IOT SOFTWARE VN</strong></br>
             Uy Tín - Chuyên Nghiệp
          </h1>
 
          <div class="row mt-5">
-            <div class="col-12 col-lg-6 text-center " data-aos="fade-right" data-aos-duration="1700">
+            <div class="col-12 col-lg-6 text-center " data-aos="fade-right">
                <img class="img-fluid" src="./assets/img/gioi-thieu-ve-cong-ty.png" alt="">
             </div>
-            <div class="col-12 col-lg-6 " data-aos="fade-left" data-aos-duration="1700">
-               <p class="lh-base ">Được thành lập bởi các chuyên gia với nhiều năm kinh nghiệm đáp ứng nhu
+            <div class="col-12 col-lg-6 " data-aos="fade-left">
+               <p class="lh-base mt-3 mt-lg-0">Được thành lập bởi các chuyên gia với nhiều năm kinh nghiệm đáp ứng nhu
                   cầu về lĩnh vực
                   CNTT, IOT, AI,
                   Computer Vision, Big Data, APP...</p>
@@ -141,7 +152,7 @@
             </div>
          </div>
 
-         <div class="row mt-5 justify-content-center" data-aos="fade-up" data-aos-duration="1700">
+         <div class="row mt-5 justify-content-center" data-aos="fade-up">
             <div class="title-item col-12 col-md-6 col-lg-4 roun text-center mt-4">
                <img class="img-fluid rounded" src="./assets/img/dich-vu-ung-dung.jpg" alt="dich-vu-ung-dung">
             </div>
@@ -156,6 +167,149 @@
       </div>
    </section>
    <!-- End ABOUT -->
+
+   <!-- SERVICE-APP -->
+   <section id="service-app" class="pt-100 pb-100">
+      <div class="container">
+         <div class="row">
+            <div class="col-12 col-lg-6 " data-aos="fade-right">
+               <h2 class="fs-2 fw-bold mb-3">Lập Trình Ứng Dụng</h2>
+               <p class="lh-sm">Với đội ngũ chuyên gia phần mềm có trình độ cao và dày dạn kinh nghiệm, IOT SOFTWARE tự
+                  hào là một tổ chức có thể cung cấp các dịch vụ với chất lượng cao, đủ để đáp ứng những nhu cầu phức
+                  tạp nhất, những đòi hỏi khắt khe nhất về chất lượng sản phẩm.</p>
+               <ul class="list-unstyled">
+                  <li class="d-flex mt-2"><i class="far fa-caret-square-right me-2"></i>
+                     <p class="lh-sm">Phân tích, thiết kế các hệ thống thông
+                        tin phục vụ công tác tin học hóa theo
+                        yêu cầu
+                        của các đơn
+                        vị, tổ chức.</p>
+                  </li>
+                  <li class="d-flex mt-2"><i class="far fa-caret-square-right me-2"></i>
+                     <p class="lh-sm">Xây dựng hệ thống các phần mềm hỗ trợ
+                        nhằm nâng cao công tác quản lý.</p>
+                  </li>
+                  <li class="d-flex mt-2"><i class="far fa-caret-square-right me-2"></i>
+                     <p class="lh-sm">Triển khai, đào tạo các phần mềm cho
+                        các tổ chức, doanh nghiệp.</p>
+                  </li>
+
+               </ul>
+            </div>
+            <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center mt-4 mt-lg-0"
+               data-aos="fade-left">
+               <img class="img-fluid" src="./assets/img/lap-trinh-ung-dung-1.png" alt="lap-trinh-dung-dung">
+            </div>
+
+         </div>
+      </div>
+   </section>
+   <!-- End SERVICE-APP -->
+
+   <!-- SERVICE-WEB -->
+   <section id="service-web" class="pt-100 pb-100">
+      <div class="container">
+         <div class="row">
+            <div class="service-web-img col-12 col-lg-6 d-flex align-items-center justify-content-center mt-4 mt-lg-0"
+               data-aos="fade-right">
+               <img class="img-fluid" src="./assets/img/lap-trinh-wep-app.png" alt="lap-trinh-web-app">
+            </div>
+
+            <div class="service-web-info col-12 col-lg-6 " data-aos="fade-left">
+               <h2 class="fs-2 fw-bold mb-3">Lập Trình Web-App</h2>
+               <p class="lh-sm">Chúng tôi không bán phần mềm, IOT Software chúng tôi thiết kế và lập trình web app theo
+                  nhu cầu riêng cho doanh nghiệp. Web-app tại IOT Software là giải pháp những vấn đề tồn đọng, tối ưu mô
+                  hình kinh doanh hiện tại, dễ dàng sử dụng mà không cần training nhân viên, báo cáo mọi vấn đề.</p>
+               <ul class="list-unstyled">
+                  <li class="d-flex mt-2"><i class="far fa-caret-square-right me-2"></i>
+                     <p class="lh-sm">Quản lý tài nguyên tập trung, tìm kiếm nhanh chóng.</p>
+                  </li>
+                  <li class="d-flex mt-2"><i class="far fa-caret-square-right me-2"></i>
+                     <p class="lh-sm">Chạy trên nền tảng website, thiết bị có internet và web browser.</p>
+                  </li>
+                  <li class="d-flex mt-2"><i class="far fa-caret-square-right me-2"></i>
+                     <p class="lh-sm">Phân quyền sử dụng tối ưu, mỗi nhân viên chỉ được truy cập vào các tính năng chỉ
+                        định.</p>
+                  </li>
+
+               </ul>
+            </div>
+
+
+         </div>
+      </div>
+   </section>
+   <!-- End SERVICE-WEB -->
+
+   <!-- SERVICE-MOBILE -->
+   <section id="service-mobile" class="pt-100 pb-100">
+      <div class="container">
+         <div class="row">
+            <div class="col-12 col-lg-6 " data-aos="fade-right">
+               <h2 class="fs-2 fw-bold mb-3">Lập Trình Di Động</h2>
+               <p class="lh-sm"> Lập trình di động IOS/Android theo các công nghệ di động mới nhất từng thời điểm. Đáp
+                  ứng được những yêu cầu kĩ thuật cao cấp mà website bị giới hạn. Việc sở hữu một ứng dụng smartphone
+                  hoàn chỉnh giúp tổ chức, doanh nghiệp chiếm được nhiều thiện cảm hơn trong mắt khách hàng.</p>
+               <ul class="list-unstyled">
+                  <li class="d-flex mt-2"><i class="far fa-caret-square-right me-2"></i>
+                     <p class="lh-sm">Tư vấn thiết kế UI/UX.</p>
+                  </li>
+                  <li class="d-flex mt-2"><i class="far fa-caret-square-right me-2"></i>
+                     <p class="lh-sm">Trọn gói từ website/web-service (quản lý) IOS và Android.</p>
+                  </li>
+                  <li class="d-flex mt-2"><i class="far fa-caret-square-right me-2"></i>
+                     <p class="lh-sm">Chúng tôi đáp ứng mọi yêu cầu về tiến độ hoàn thành của sản phẩm theo đúng tiêu
+                        chuẩn của một ứng dụng di động chất lượng cao trên nền tảng iOS và Android.</p>
+                  </li>
+
+               </ul>
+            </div>
+            <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center mt-4 mt-lg-0"
+               data-aos="fade-left">
+               <img class="img-fluid" src="./assets/img/lap-trinh-di-dong.png" alt="lap-trinh-di-dong">
+            </div>
+
+         </div>
+      </div>
+   </section>
+   <!-- End SERVICE-MOBILE -->
+
+   <!-- SERVICE-ECOMMERCE -->
+   <section id="service-ecommerce" class="pt-100 pb-100">
+      <div class="container">
+         <div class="row">
+            <div
+               class="service-ecommerce-img col-12 col-lg-6 d-flex align-items-center justify-content-center mt-4 mt-lg-0"
+               data-aos="fade-right">
+               <img class="img-fluid" src="./assets/img/thuong-mai-dien-tu.png" alt="thuong-mai-dien-tu">
+            </div>
+
+            <div class="service-ecommerce-info col-12 col-lg-6 " data-aos="fade-left">
+               <h2 class="fs-2 fw-bold mb-3">Thương Mại Điện Tử</h2>
+               <p class="lh-sm">Chính thức ra mắt và gia nhập thị trường Việt Nam từ năm 2019. với mục đích tạo ra một
+                  sàn giao dịch thương mại điện tử cho người Việt, kết nối người mua và người bán lại với nhau bằng
+                  những giao dịch cực kỳ đơn giản, tiện lợi, nhanh chóng, an toàn và hiệu quả nhất.</p>
+               <ul class="list-unstyled">
+                  <li class="d-flex mt-2"><i class="far fa-caret-square-right me-2"></i>
+                     <p class="lh-sm">Giao diện thiết kế đáp ứng được mọi yêu cầu.</p>
+                  </li>
+                  <li class="d-flex mt-2"><i class="far fa-caret-square-right me-2"></i>
+                     <p class="lh-sm">Công nghệ thiết kế chuẩn SEO & Responsive tương thích với mọi loại thiết bị di
+                        động.</p>
+                  </li>
+                  <li class="d-flex mt-2"><i class="far fa-caret-square-right me-2"></i>
+                     <p class="lh-sm">Chức năng bảo mật thông tin và dữ liệu khách hàng an toàn tuyệt đối. Hệ thống
+                        Cloud chống lại sự xâm nhập từ các tài khoản lạ.</p>
+                  </li>
+
+               </ul>
+            </div>
+
+
+         </div>
+      </div>
+   </section>
+   <!-- End SERVICE-ECOMMERCE -->
    <section style="height:2000px; background-color: #ccc;">
 
    </section>

@@ -1,8 +1,4 @@
-body{
-   font-family: 'Roboto', sans-serif;
-   font-size: 18px;
-   color: #000;
-}
+
 
 #loading {
    width: 100%;
@@ -17,12 +13,18 @@ body{
 /* ========== HEADER ========== */
 header {
    height: 100px;
-   width: 100%;
+   width: 100vw;
    background-color: #fff;
    z-index: 1000;
+
+}
+#nav-icon{
+   color: var(--primary-color);
 }
 
-
+#navbar-icon--close {
+   display: none;
+}
 .nav-item-link{
    color: #000;
 }
@@ -38,6 +40,30 @@ header {
    color: var(--primary-color);
 }
 
+@keyframes navbarIsOpen {
+   from {
+      transform: translateX(100%);
+
+
+   }
+   to {
+      transform: translateX(0);
+
+   }
+}
+
+@keyframes navbarIsClose {
+   from {
+      transform: translateX(0);
+
+
+   }
+   to {
+      transform: translateX(100%);
+
+   }
+}
+
 /* End HEADER */
 
 /* ========= INTRO ========== */
@@ -49,7 +75,7 @@ header {
    background-position: center center;
 } */
 .carousel-img {
-   height: 50vh;
+   height: 60vh;
 }
 
 /* End INTRO */
@@ -71,3 +97,35 @@ header {
 }
 /* End ABOUT */
 
+/* ========= SERVICE APP ========== */
+#service-app{
+   background-color: var(--foreign-color);
+}
+#service-app p,
+#service-web p,
+#service-mobile p,
+#service-ecommerce p{
+   text-align: justify;
+}
+/* End SERVICE-APP */
+
+/* ========= SERVICE WEB ========== */
+#service-web{
+   background-color: rgb(1, 201, 201);
+}
+
+/* End SERVICE-WEB */
+
+/* ========= SERVICE MOBILE ========== */
+#service-mobile{
+   background-color: rgba(254, 209, 84,0.6);
+}
+
+/* End SERVICE-MOBILE */
+
+/* ========= SERVICE MOBILE ========== */
+#service-ecommerce{
+   background-color: rgba(1, 201, 201,0.6);
+}
+
+/* End SERVICE-MOBILE */

@@ -1,0 +1,28 @@
+@media (max-width: 991px) {
+   .service-web-img,
+   .service-ecommerce-img{
+      order: 2;
+   }
+   .service-web-info,
+   .service-ecommerce-info{
+      order: 1;
+   }
+}
+
+@media (max-width: 767px){
+   #navbar {
+      display: none;
+      background-color: #edeff1;
+      height: 100vh;
+      position: fixed;
+      top: 100px;left: 0;right:0;
+      z-index: 10 !important;
+   }
+
+}
+
+@media (min-width: 1200px) {
+   .nav-item-link{
+      padding-bottom: 12px !important;
+   }
+}
