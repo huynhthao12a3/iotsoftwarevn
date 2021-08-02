@@ -14,7 +14,7 @@ var carousel = new bootstrap.Carousel(myCarousel, {
 // ===== Aos Library
 AOS.init({
    once: false,
-   duration: 1700,
+   duration: 1200,
    anchorPlacement: 'top-bottom',
 });
 
@@ -26,15 +26,15 @@ function showNavbar(){
    let navbarOpen = document.getElementById("navbar-icon--open");
    let navbarClose = document.getElementById("navbar-icon--close");
    if(count %2 === 0){
-      navbar.style.animation = "navbarIsOpen 0.6s ease-in";
+      navbar.style.animation = "navbarIsOpen 0.3s ease-in-out";
       displayBlock();
       navbarOpen.classList.add("d-none");
       navbarClose.classList.add("d-block");
 
    }
    else {
-      navbar.style.animation = "navbarIsClose 0.6s ease-in";
-      setTimeout(displayBlock,550) ;
+      navbar.style.animation = "navbarIsClose 0.3s ease-in-out";
+      setTimeout(displayBlock,250) ;
       navbarClose.classList.remove("d-block");
       navbarOpen.classList.remove("d-none");
    }

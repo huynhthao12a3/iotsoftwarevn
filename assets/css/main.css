@@ -16,6 +16,11 @@ header {
    width: 100vw;
    background-color: #fff;
    z-index: 1000;
+}
+
+.header-name {
+   font-family: "Roboto Mono", "Roboto";
+   color: var(--primary-color);
 
 }
 #nav-icon{
