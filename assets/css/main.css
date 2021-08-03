@@ -20,7 +20,11 @@ header {
 
 
 #nav-icon{
-   color: var(--foreign-color);
+   color: var(--primary-color);
+}
+
+.nav-icon-wrap {
+   border: 2px solid var(--primary-color);
 }
 
 #navbar-icon--close {
@@ -32,13 +36,13 @@ header {
 
 .nav-item-link:hover,
 .nav-item-link--active {
-   border-bottom: 4px solid var(--primary-color);
-   color:  var(--foreign-color);
+   border-bottom: 4px solid var(--foreign-color);
+   color:  var(--primary-color);
    background-color: #333;
 }
 
 .phone-number a {
-   color: var(--primary-color);
+   color: var(--foreign-color);
 }
 
 @keyframes navbarIsOpen {
@@ -83,7 +87,7 @@ header {
 
 /* ========= ABOUT ========== */
 #about h1 strong {
-   color: var(--primary-color);
+   color: var(--foreign-color);
 }
 #about img {
    max-height: 320px ;
@@ -100,7 +104,7 @@ header {
 
 /* ========= SERVICE APP ========== */
 #service-app{
-   background-color: var(--foreign-color);
+   background-color: var(--primary-color);
 }
 #service-app p,
 #service-web p,
@@ -138,7 +142,7 @@ header {
 #customer h3 strong,
 #customer-idea h3 strong,
 #product h3 strong {
-   color: var(--primary-color);
+   color: var(--foreign-color);
 }
 #product h3::before,
 #product h3::after{
@@ -167,7 +171,7 @@ header {
    margin-right: 10px !important;
 }
 #product .swiper-pagination-bullet.swiper-pagination-bullet-active {
-   background-color: var(--primary-color);
+   background-color: var(--foreign-color);
 }
 /* End PRODUCT */
 
@@ -176,7 +180,7 @@ header {
    background-color: #F7F7F7;
 }
 .slick-prev:before, .slick-next:before {
-   color: var(--primary-color);
+   color: var(--foreign-color);
 }
 
 .customer__logo {
@@ -196,7 +200,7 @@ header {
 /* End CUSTOMER IDEA */
 
 
-/* ----- Footer ----- */
+/* ===== Footer ===== */
 #footer {
    background-color: #262626;
 }
