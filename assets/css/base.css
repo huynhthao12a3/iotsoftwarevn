@@ -27,7 +27,30 @@ html {
    overflow-x: hidden;
 }
 
-.logo-name__item{
+/*[ Hover img zoom]
+-----------------------------------------------------------
+*/
+.hov-img-zoom {
+	overflow: hidden;
+   cursor: pointer;
+}
+.hov-img-zoom img{
+	-webkit-transition: all 0.6s;
+   -o-transition: all 0.6s;
+   -moz-transition: all 0.6s;
+   transition: all 0.6s;
+}
+.hov-img-zoom:hover img {
+	-webkit-transform: scale(1.1);
+   -moz-transform: scale(1.1);
+   -ms-transform: scale(1.1);
+   -o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+/* ===== CODE LOGO */
+/* .logo-name__item{
    height: 60px;
    width: 60px;
    background-color: #BDCBD4;
@@ -62,4 +85,4 @@ html {
    font-size: 36px;
 }
 .logo-name__desc-1{
-}
+} */

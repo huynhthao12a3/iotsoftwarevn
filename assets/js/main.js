@@ -43,3 +43,88 @@ function showNavbar(){
 function displayBlock(){
    navbar.classList.toggle('d-block');
 }
+
+// ===== tsparticles
+tsParticles.load("tsparticles", {
+   particles: {
+      links: {
+      enable: true,
+      opacity: 0.5
+   },
+   move: {
+      enable: true
+   },
+   opacity: {
+      value: 0.8
+   },
+   size: {
+      value: 3
+   }
+   }
+});
+
+// ===== Swiper
+const projectSwiper = new Swiper('.swiper-container', {
+   direction: 'horizontal',
+   preloadImages: false,
+   lazy: true,
+   loop: true,
+   speed: 500,
+   autoplay: {
+      delay: 3000,
+      disableOnInteraction: false
+
+   },
+   grabCursor: false,
+
+   slidesPerView: 'auto',
+   breakpoints: {
+      100:{
+            slidesPerView: 1,
+            spaceBetween: 10,
+      },
+      768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+      },
+      992:{
+            slidesPerView: 3,
+            spaceBetween:20,
+      }
+   },
+
+   pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+   },
+
+});
+
+// ===== Slick
+$(document).ready(function(){
+
+   $('.slick-slider').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      speed: 1000,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      responsive: [
+         {
+            breakpoint: 1200,
+            settings: {
+               slidesToShow: 2,
+            }
+         },
+         {
+            breakpoint: 768,
+            settings: {
+               slidesToShow: 1,
+               arrows: false,
+            }
+         },
+         
+      ]
+   })
+})

@@ -38,7 +38,7 @@ header {
 }
 
 .phone-number a {
-   color: var(--foreign-color);
+   color: var(--primary-color);
 }
 
 @keyframes navbarIsOpen {
@@ -76,7 +76,7 @@ header {
    background-position: center center;
 } */
 .carousel-img {
-   height: 60vh;
+   height: 50vh;
 }
 
 /* End INTRO */
@@ -111,9 +111,9 @@ header {
 /* End SERVICE-APP */
 
 /* ========= SERVICE WEB ========== */
-#service-web{
+/* #service-web{
    background-color: rgb(1, 201, 201);
-}
+} */
 
 /* End SERVICE-WEB */
 
@@ -125,8 +125,113 @@ header {
 /* End SERVICE-MOBILE */
 
 /* ========= SERVICE MOBILE ========== */
-#service-ecommerce{
+/* #service-ecommerce{
    background-color: rgba(1, 201, 201,0.6);
-}
+} */
 
 /* End SERVICE-MOBILE */
+
+ /* ========= PRODUCT ==========  */
+#product{
+   background-image: url(../img/background.png);
+} 
+#customer h3 strong,
+#customer-idea h3 strong,
+#product h3 strong {
+   color: var(--primary-color);
+}
+#product h3::before,
+#product h3::after{
+   content: "";
+   width: 30px;
+   height: 2px;
+   background-color: #000;
+   display: inline-block;
+   margin: 0 4px;
+}
+#product .swiper-slide{
+   background-color: #fff;
+   height: 600px;
+   box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+}
+#product .swiper-slide h4 {
+   color: #c78104;
+}
+#product .swiper-slide p{
+   text-align: justify;
+}
+#product .swiper-pagination-bullet {
+   width: 14px;
+   height: 14px;
+   margin-left: 10px !important;
+   margin-right: 10px !important;
+}
+#product .swiper-pagination-bullet.swiper-pagination-bullet-active {
+   background-color: var(--primary-color);
+}
+/* End PRODUCT */
+
+/* ===== CUSTOMER IDEA ===== */
+#customer-idea {
+   background-color: #F7F7F7;
+}
+.slick-prev:before, .slick-next:before {
+   color: var(--primary-color);
+}
+
+.customer__logo {
+   height: 100px;
+}
+.customer__info {
+   height: 60px;
+}
+.customer__info span {
+   font-size: 12px;
+   color: #7B8794;
+}
+.customer blockquote {
+   color: #707070;
+   font-size: 16px;
+}
+/* End CUSTOMER IDEA */
+
+
+/* ----- Footer ----- */
+#footer {
+   background-color: #262626;
+}
+.footer-social *{
+   color: #fff;
+}
+.footer-social-item{
+   background-color: #545454;
+   width: 40px;
+   height: 40px;
+}
+
+.footer-info *,
+.footer-subscribe *{
+   color: #d7d7d9;
+}
+.footer-info li p{
+   font-weight: 300;
+   line-height: 20px;
+}
+
+
+.footer-info h4{
+   font-weight: 300;
+}
+.footer-info li i {
+   width: 20px;
+   height: 20px;
+}
+.footer-hr {
+   color: #535353;
+}
+
+
+.footer-copy-right a,
+.footer-copy-right a:hover{
+   color: var(--primary-color);
+}
