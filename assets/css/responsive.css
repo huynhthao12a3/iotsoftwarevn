@@ -13,11 +13,25 @@
    
    #navbar {
       display: none;
-      background-color: #edeff1;
+      background-color: #595959;
       height: 100vh;
       position: fixed;
       top: 100px;left: 0;right:0;
       z-index: 10 !important;
+   }
+   .nav-item:nth-child(1),
+   .nav-item:nth-child(3),
+   .nav-item:nth-child(5){
+      background-color: rgba(204, 204, 204,0.5);
+   }
+   .nav-item-link{
+      color: #fff;
+   }
+
+   .nav-info-mobile {
+      color: var(--primary-color);
+      font-family: 'Style Script', 'Roboto';
+      letter-spacing: 4px;
    }
 
 }

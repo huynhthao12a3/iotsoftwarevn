@@ -34,11 +34,9 @@ header {
    color: #000;
 }
 
-.nav-item-link:hover,
-.nav-item-link--active {
-   border-bottom: 4px solid var(--foreign-color);
+.nav-item-link:hover {
+   border-bottom: 2px solid var(--foreign-color);
    color:  var(--primary-color);
-   background-color: #333;
 }
 
 .phone-number a {
@@ -103,7 +101,8 @@ header {
 /* End ABOUT */
 
 /* ========= SERVICE APP ========== */
-#service-app{
+#service-app,
+#service-mobile{
    background-color: var(--primary-color);
 }
 #service-app p,
@@ -122,9 +121,7 @@ header {
 /* End SERVICE-WEB */
 
 /* ========= SERVICE MOBILE ========== */
-#service-mobile{
-   background-color: rgba(254, 209, 84,0.6);
-}
+
 
 /* End SERVICE-MOBILE */
 
@@ -159,7 +156,8 @@ header {
    box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
 }
 #product .swiper-slide h4 {
-   color: #c78104;
+   color: var(--primary-color);
+   text-shadow: 1px 1px 1px var(--foreign-color);
 }
 #product .swiper-slide p{
    text-align: justify;
@@ -171,7 +169,7 @@ header {
    margin-right: 10px !important;
 }
 #product .swiper-pagination-bullet.swiper-pagination-bullet-active {
-   background-color: var(--foreign-color);
+   background-color: var(--primary-color);
 }
 /* End PRODUCT */
 
@@ -202,15 +200,15 @@ header {
 
 /* ===== Footer ===== */
 #footer {
-   background-color: #262626;
+   background-color: #222222;
 }
 .footer-social *{
    color: #fff;
 }
 .footer-social-item{
    background-color: #545454;
-   width: 40px;
-   height: 40px;
+   width: 50px;
+   height: 50px;
 }
 
 .footer-info *,
@@ -234,7 +232,9 @@ header {
    color: #535353;
 }
 
-
+.footer-copy-right {
+   background-color: #111111;
+}
 .footer-copy-right a,
 .footer-copy-right a:hover{
    color: var(--primary-color);
