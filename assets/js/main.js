@@ -15,7 +15,7 @@ var carousel = new bootstrap.Carousel(myCarousel, {
 AOS.init({
    once: false,
    duration: 1200,
-   anchorPlacement: 'top-bottom',
+   anchorPlacement: 'bottom',
 });
 
 // =====
@@ -66,8 +66,6 @@ tsParticles.load("tsparticles", {
 // ===== Swiper
 const projectSwiper = new Swiper('.swiper-container', {
    direction: 'horizontal',
-   preloadImages: false,
-   lazy: true,
    loop: true,
    speed: 500,
    autoplay: {
@@ -75,8 +73,6 @@ const projectSwiper = new Swiper('.swiper-container', {
       disableOnInteraction: false
 
    },
-   grabCursor: false,
-
    slidesPerView: 'auto',
    breakpoints: {
       100:{

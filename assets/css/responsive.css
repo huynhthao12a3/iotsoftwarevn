@@ -1,4 +1,11 @@
-@media (max-width: 991px) {
+@media (max-width: 767px) {
+   .service-link {
+      width: 100%;
+      
+   }
+}
+
+@media (max-width: 991px){
    .service-web-img,
    .service-ecommerce-img{
       order: 2;
@@ -7,10 +14,6 @@
    .service-ecommerce-info{
       order: 1;
    }
-}
-
-@media (max-width: 991px){
-   
    #navbar {
       display: none;
       background-color: #595959;
@@ -39,5 +42,9 @@
 @media (min-width: 1200px) {
    .nav-item-link{
       padding-bottom: 12px !important;
+   }
+
+   #product .swiper-slide{
+      height: 550px;
    }
 }
