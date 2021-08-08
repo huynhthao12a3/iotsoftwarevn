@@ -1,73 +1,7 @@
 
 
-#loading {
-   width: 100%;
-   height: 100vh;
-   z-index: 9999;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   background-color: #fff;
-}
 
-/* ========== HEADER ========== */
-header {
-   height: 100px;
-   width: 100vw;
-   background-color: #fff;
-   z-index: 1000;
-}
-
-
-#nav-icon{
-   color: var(--primary-color);
-}
-
-.nav-icon-wrap {
-   border: 2px solid var(--primary-color);
-}
-
-#navbar-icon--close {
-   display: none;
-}
-.nav-item-link{
-   color: #000;
-}
-
-.nav-item-link:hover {
-   border-bottom: 2px solid var(--foreign-color);
-   color:  var(--primary-color);
-}
-
-.phone-number a {
-   color: var(--foreign-color);
-}
-
-@keyframes navbarIsOpen {
-   from {
-      transform: translateX(100%);
-
-
-   }
-   to {
-      transform: translateX(0);
-
-   }
-}
-
-@keyframes navbarIsClose {
-   from {
-      transform: translateX(0);
-
-
-   }
-   to {
-      transform: translateX(100%);
-
-   }
-}
-
-/* End HEADER */
+/* ========================== HOME PAGE ========================== */
 
 /* ========= INTRO ========== */
 /* #intro {
@@ -175,15 +109,15 @@ header {
    border-bottom: 1px solid #ccc;
 }
 .reason__icon {
-   border: 4px solid var(--primary-color);
+   border: 4px solid var(--foreign-color);
    border-radius: 50%;
-   color: var(--primary-color);
+   color: var(--foreign-color);
 }
 .reason__desc{
    text-align: justify;
 }
 .reason__desc h4{
-   text-shadow: 0 0 1px var(--primary-color);
+   text-shadow: 0 0 1px var(--foreign-color);
 }
 /* End REASON */
 
@@ -231,47 +165,114 @@ header {
 }
 /* End PRODUCT */
 
+/* ================ End HOME PAGE ================ */
+/*  */
 
-
-
-/* ===== Footer ===== */
-#footer {
-   background-color: #222222;
+/* ========================== ABOUT PAGE ========================== */
+/* ===== INTRODUCE ===== */
+#introduce{
+   height: 30vh;
+   background-image: url(../img/about-page/introduce-iotsoftvn.jpg);
+   background-size: contain;
+   background-repeat: repeat-x;
+   background-position:center center;
 }
-.footer-social *{
+/* .introduce-title {
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
    color: #fff;
+   text-shadow: 4px 4px 10px #000;
+} */
+/* End INTRODUCE*/
+
+/* ===== INFO ===== */
+#about-page-info-1 p,
+#about-page-info-2 p,
+#about-page-info-3 p {
+   text-align: justify;
 }
-.footer-social-item{
-   background-color: #545454;
-   width: 50px;
-   height: 50px;
+.about-title {
+   border-left: 6px solid #ccc;
+   color: var(--foreign-color);
+}
+.about-title-sm {
+   color: #777;
+}
+.page-info-item i {
+   font-size: 10px;
+}
+/* End INFO */
+
+/* ===== ABOUT IOT CITY ===== */
+#about-iotcity {
+   height: 50vh;
+   background-image: url(../img/about-page/intro-iotcity.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center bottom;
+   background-attachment: fixed;
+}
+/* End ABOUT IOT CITY */
+
+/* ===== ABOUT PROJECT ===== */
+#slogan,
+#about-project {
+   background-color: #F0F0F0;
+}
+.project__counter i {
+   color: var(--foreign-color);
+}
+.project__counter h5 {
+   font-weight: 600;
+}
+/* End ABOUT PROJECT */
+
+/* ===== ABOUT LEADER ===== */
+.leader-tittle h3::before{
+   content: "";
+   display: block;
+   position: absolute;
+   bottom: 0;
+   left:45%;
+   width: 10%;
+   height:3px;
+   justify-content: center;
+   background-color: var(--foreign-color);
+
+   
+}
+.leader-item {
+   border-top: 4px solid #D7DEE4;
+}
+.leader-item:hover{
+   transform: translateY(-30px);
+   transition: all 0.6s ease-in;
 }
 
-.footer-info *,
-.footer-subscribe *{
-   color: #d7d7d9;
+.leader-info h4 {
+   font-weight: 600;
 }
-.footer-info li p{
-   font-weight: 300;
-   line-height: 20px;
+.leader-info a,
+.leader-info a:hover{
+   color: var(--foreign-color);
 }
+.leader-info-img {
+   border: 1px solid #D7DEE4;
+   border-radius: 50%;
+}
+.leader-info-img img {
+   width: 120px;
+   height: 120px;
+   border-radius: 50%;
+
+}
+.slogan {
+   background-color: #E0C045;
+}
+/* End ABOUT LEADER */
 
 
-.footer-info h4{
-   font-weight: 300;
-}
-.footer-info li i {
-   width: 20px;
-   height: 20px;
-}
-.footer-hr {
-   color: #535353;
-}
+/* ================ End ABOUT PAGE ================ */
 
-.footer-copy-right {
-   background-color: #111111;
-}
-.footer-copy-right a,
-.footer-copy-right a:hover{
-   color: var(--primary-color);
-}
+

@@ -19,11 +19,8 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
       rel="stylesheet">
-   <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-      rel="stylesheet"> -->
    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
@@ -42,6 +39,7 @@
    <!-- Loading -->
    <div id="loading" class="position-fixed top-0 bottom-0 start-0 end-0">
       <img src="./assets/img/loading.gif" alt="loading-gif">
+      <img class="loading-logo" src="./assets/img/nav-mobile-logo.jpg" alt="">
    </div>
    <!-- End loading -->
 
@@ -51,8 +49,11 @@
          <div class="row h-100 align-items-center justify-content-between">
 
             <div class="col-10 col-md-4 col-xl-3 d-flex align-items-md-center justify-content-md-center ">
-               <img class="header-logo img-fluid" src="./assets/img/logo-iotsoft-vn.png"
-                  alt="IOT Software VN - Công ty thiết kế phần mềm,website chuyên nghiệp">
+               <a href="./index.html">
+                  <img class="header-logo img-fluid" src="./assets/img/logo-iotsoft-vn.png"
+                     alt="IOT Software VN - Công ty thiết kế phần mềm,website chuyên nghiệp">
+               </a>
+
             </div>
 
             <div id="nav-icon" class="col-2  p-2 text-center d-lg-none">
@@ -70,7 +71,7 @@
                         Chủ</a>
                   </li>
                   <li class="nav-item  d-block d-lg-inline-block">
-                     <a href="#"
+                     <a href="./about.html"
                         class="nav-item-link d-block rounded text-decoration-none text-uppercase p-4 p-lg-3 ">Giới
                         Thiệu</a>
                   </li>
@@ -104,344 +105,364 @@
       </div>
    </header>
    <!-- End Header -->
+   <main id="home-page">
+      <!-- Intro -->
+      <section id="intro" class="mt-100">
+         <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
 
-   <!-- Intro -->
-   <section id="intro" class="mt-100">
-      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-
-         <div class="carousel-inner">
-            <div class="carousel-item ">
-               <img src="./assets/img/ecommerce-website-service.jpg" class="carousel-img d-block vw-100  "
-                  alt="he-thong-erp">
-            </div>
-
-            <div class="carousel-item">
-               <img src="./assets/img/iot.jpg" class="carousel-img d-block vw-100  " alt="big-data-iot">
-            </div>
-
-            <div class="carousel-item active">
-               <img src="./assets/img/lap-trinh-ung-dung.png" class="carousel-img d-block vw-100  " alt="e-commerce">
-            </div>
-         </div>
-         <button class="carousel-control-prev d-none d-md-block" type="button" data-bs-target="#carouselExample"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-         </button>
-         <button class="carousel-control-next d-none d-md-block" type="button" data-bs-target="#carouselExample"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-         </button>
-      </div>
-   </section>
-   <!-- End Intro -->
-
-   <!-- TITLE -->
-   <section id="about" class="pt-100 pb-100">
-      <div class="container">
-         <h1 class="fs-1 text-center lh-sm" data-aos="fade-down">Công ty thiết kế phần mềm,
-            website </br>
-            <strong>IOT SOFTWARE VN</strong></br>
-            Uy Tín - Chuyên Nghiệp
-         </h1>
-
-         <div class="row mt-5">
-            <div class="col-12 col-lg-6 text-center " data-aos="fade-right">
-               <img class="img-fluid" src="./assets/img/gioi-thieu-ve-cong-ty.png" alt="">
-            </div>
-            <div class="col-12 col-lg-6 " data-aos="fade-left">
-               <p class="lh-base mt-3 mt-lg-0">Được thành lập bởi các chuyên gia với nhiều năm kinh nghiệm đáp ứng nhu
-                  cầu về lĩnh vực
-                  CNTT, IOT, AI,
-                  Computer Vision, Big Data, APP...</p>
-               <p class="lh-base  mt-3">Trong thời đại thông tin hóa, mọi thứ trong cuộc sống của chúng
-                  ta trở nên
-                  nhanh và thuận
-                  tiện hơn thì đương nhiên cách truyền tải thông tin cũng có nhiều thay đổi.
-               </p>
-               <p class="lh-base  mt-3">Chúng
-                  tôi hướng tới
-                  thời đại mới với phương châm luôn lắng nghe những ý kiến, phản hồi từ quý khách hàng và
-                  nỗ lực hết mình nhằm xây dựng và cung cấp những hệ thống công nghệ thông tin có độ tin
-                  cậy ngày càng cao.</p>
-            </div>
-         </div>
-
-         <div class="row mt-5 justify-content-center" data-aos="fade-up">
-            <div class="title-item col-12 col-md-6 col-lg-4 roun text-center mt-4">
-               <img class="img-fluid rounded" src="./assets/img/dich-vu-ung-dung.jpg" alt="dich-vu-ung-dung">
-            </div>
-            <div class="title-item col-12 col-md-6 col-lg-4 roun text-center mt-4">
-               <img class="img-fluid rounded" src="./assets/img/dich-vu-website.jpg" alt="dich-vu-website">
-            </div>
-            <div class="title-item col-12 col-md-6 col-lg-4 roun text-center mt-4">
-               <img class="img-fluid rounded" src="./assets/img/dich-vu-iot.jpg" alt="dich-vu-iot">
-            </div>
-         </div>
-
-      </div>
-   </section>
-   <!-- End ABOUT -->
-
-   <section id="service" class="pt-100 pb-100">
-      <div class="container py-5" data-aos="zoom-out">
-         <div class="row">
-            <div class="col-12 col-md-8 col-xl-9">
-               <p class="text-light fs-4 fw-bold pb-4">IOTSOFTVN có thể giúp gì cho bạn ?</p>
-               <p class="text-light fs-5 fst-italic lh-base">Chúng tôi cung cấp những giải pháp công nghệ thông tin
-                  (CNTT) tốt
-                  nhất
-                  cho
-                  doanh
-                  nghiệp
-                  của bạn.</p>
-            </div>
-            <div class="col-12 col-md-4 col-xl-3 d-flex align-items-center justify-content-center pt-4 pt-md-0">
-               <a class="service-link text-center py-3 px-md-5 fs-4 text-decoration-none text-dark" href="#">Liên Hệ</a>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- SERVICE-APP -->
-   <section id="service-app" class="pt-100 pb-100">
-      <div class="container">
-         <div class="row justify-content-center">
-            <div class="col-12 col-lg-5 " data-aos="fade-right">
-               <h2 class="fs-2 fw-bold mb-3">Lập Trình Ứng Dụng</h2>
-               <p class="lh-sm">Với đội ngũ chuyên gia phần mềm có trình độ cao và dày dạn kinh nghiệm, IOT SOFTWARE tự
-                  hào là một tổ chức có thể cung cấp các dịch vụ với chất lượng cao, đủ để đáp ứng những nhu cầu phức
-                  tạp nhất, những đòi hỏi khắt khe nhất về chất lượng sản phẩm.</p>
-               <ul class="list-unstyled">
-                  <li class="d-flex mt-2"><i class="far fa-caret-square-right me-2"></i>
-                     <p class="lh-sm">Phân tích, thiết kế các hệ thống thông
-                        tin phục vụ công tác tin học hóa theo
-                        yêu cầu
-                        của các đơn
-                        vị, tổ chức.</p>
-                  </li>
-                  <li class="d-flex mt-2"><i class="far fa-caret-square-right me-2"></i>
-                     <p class="lh-sm">Xây dựng hệ thống các phần mềm hỗ trợ
-                        nhằm nâng cao công tác quản lý.</p>
-                  </li>
-                  <li class="d-flex mt-2"><i class="far fa-caret-square-right me-2"></i>
-                     <p class="lh-sm">Triển khai, đào tạo các phần mềm cho
-                        các tổ chức, doanh nghiệp.</p>
-                  </li>
-
-               </ul>
-            </div>
-            <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0"
-               data-aos="fade-left">
-               <img class="img-fluid" src="./assets/img/lap-trinh-ung-dung-1.png" alt="lap-trinh-dung-dung">
-            </div>
-
-         </div>
-      </div>
-   </section>
-   <!-- End SERVICE-APP -->
-
-   <!-- SERVICE-WEB -->
-   <section id="service-web" class="pt-100 pb-100">
-      <div class="container">
-         <div class="row justify-content-center">
-            <div class="service-web-img col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0"
-               data-aos="fade-right">
-               <img class="img-fluid" src="./assets/img/lap-trinh-wep-app.png" alt="lap-trinh-web-app">
-            </div>
-
-            <div class="service-web-info col-12 col-lg-5 " data-aos="fade-left">
-               <h2 class="fs-2 fw-bold mb-3">Lập Trình Web-App</h2>
-               <p class="lh-sm">Chúng tôi không bán phần mềm, IOT Software chúng tôi thiết kế và lập trình web app theo
-                  nhu cầu riêng cho doanh nghiệp. Web-app tại IOT Software là giải pháp những vấn đề tồn đọng, tối ưu mô
-                  hình kinh doanh hiện tại, dễ dàng sử dụng mà không cần training nhân viên, báo cáo mọi vấn đề.</p>
-               <ul class="list-unstyled">
-                  <li class="d-flex mt-2"><i class="far fa-caret-square-right me-2"></i>
-                     <p class="lh-sm">Quản lý tài nguyên tập trung, tìm kiếm nhanh chóng.</p>
-                  </li>
-                  <li class="d-flex mt-2"><i class="far fa-caret-square-right me-2"></i>
-                     <p class="lh-sm">Chạy trên nền tảng website, thiết bị có internet và web browser.</p>
-                  </li>
-                  <li class="d-flex mt-2"><i class="far fa-caret-square-right me-2"></i>
-                     <p class="lh-sm">Phân quyền sử dụng tối ưu, mỗi nhân viên chỉ được truy cập vào các tính năng chỉ
-                        định.</p>
-                  </li>
-
-               </ul>
-            </div>
-
-
-         </div>
-      </div>
-   </section>
-   <!-- End SERVICE-WEB -->
-
-   <!-- SERVICE-MOBILE -->
-   <section id="service-mobile" class="pt-100 pb-100">
-      <div class="container">
-         <div class="row justify-content-center">
-            <div class="col-12 col-lg-5 " data-aos="fade-right">
-               <h2 class="fs-2 fw-bold mb-3">Lập Trình Di Động</h2>
-               <p class="lh-sm"> Lập trình di động IOS/Android theo các công nghệ di động mới nhất từng thời điểm. Đáp
-                  ứng được những yêu cầu kĩ thuật cao cấp mà website bị giới hạn. Việc sở hữu một ứng dụng smartphone
-                  hoàn chỉnh giúp tổ chức, doanh nghiệp chiếm được nhiều thiện cảm hơn trong mắt khách hàng.</p>
-               <ul class="list-unstyled">
-                  <li class="d-flex mt-2"><i class="far fa-caret-square-right me-2"></i>
-                     <p class="lh-sm">Tư vấn thiết kế UI/UX.</p>
-                  </li>
-                  <li class="d-flex mt-2"><i class="far fa-caret-square-right me-2"></i>
-                     <p class="lh-sm">Trọn gói từ website/web-service (quản lý) IOS và Android.</p>
-                  </li>
-                  <li class="d-flex mt-2"><i class="far fa-caret-square-right me-2"></i>
-                     <p class="lh-sm">Chúng tôi đáp ứng mọi yêu cầu về tiến độ hoàn thành của sản phẩm theo đúng tiêu
-                        chuẩn của một ứng dụng di động chất lượng cao trên nền tảng iOS và Android.</p>
-                  </li>
-
-               </ul>
-            </div>
-            <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0"
-               data-aos="fade-left">
-               <img class="img-fluid" src="./assets/img/lap-trinh-di-dong.png" alt="lap-trinh-di-dong">
-            </div>
-
-         </div>
-      </div>
-   </section>
-   <!-- End SERVICE-MOBILE -->
-
-   <!-- SERVICE-ECOMMERCE -->
-   <section id="service-ecommerce" class="pt-100 pb-100">
-      <div class="container">
-         <div class="row justify-content-center">
-            <div
-               class="service-ecommerce-img col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0"
-               data-aos="fade-right">
-               <img class="img-fluid" src="./assets/img/thuong-mai-dien-tu.png" alt="thuong-mai-dien-tu">
-            </div>
-
-            <div class="service-ecommerce-info col-12 col-lg-5 " data-aos="fade-left">
-               <h2 class="fs-2 fw-bold mb-3">Thương Mại Điện Tử</h2>
-               <p class="lh-sm">Chính thức ra mắt và gia nhập thị trường Việt Nam từ năm 2019. với mục đích tạo ra một
-                  sàn giao dịch thương mại điện tử cho người Việt, kết nối người mua và người bán lại với nhau bằng
-                  những giao dịch cực kỳ đơn giản, tiện lợi, nhanh chóng, an toàn và hiệu quả nhất.</p>
-               <ul class="list-unstyled">
-                  <li class="d-flex mt-2"><i class="far fa-caret-square-right me-2"></i>
-                     <p class="lh-sm">Giao diện thiết kế đáp ứng được mọi yêu cầu.</p>
-                  </li>
-                  <li class="d-flex mt-2"><i class="far fa-caret-square-right me-2"></i>
-                     <p class="lh-sm">Công nghệ thiết kế chuẩn SEO & Responsive tương thích với mọi loại thiết bị di
-                        động.</p>
-                  </li>
-                  <li class="d-flex mt-2"><i class="far fa-caret-square-right me-2"></i>
-                     <p class="lh-sm">Chức năng bảo mật thông tin và dữ liệu khách hàng an toàn tuyệt đối. Hệ thống
-                        Cloud chống lại sự xâm nhập từ các tài khoản lạ.</p>
-                  </li>
-
-               </ul>
-            </div>
-
-
-         </div>
-      </div>
-   </section>
-   <!-- End SERVICE-ECOMMERCE -->
-
-   <!-- REASON CHOOSE -->
-   <section id="reason" class="pt-100 pb-100" data-aos="zoom-out">
-      <div class="container">
-         <h3 class="text-center fs-2 pb-5">Tại sao nên chọn chúng tôi</h3>
-         <div class="row">
-
-            <div class="col-12 col-md-6 d-flex flex-row  p-4">
-               <div class="reason__icon p-4 d-flex align-self-center">
-                  <i class="fas fa-server fs-2"></i>
+            <div class="carousel-inner">
+               <div class="carousel-item ">
+                  <img src="./assets/img/ecommerce-website-service.jpg" class="carousel-img d-block vw-100  "
+                     alt="he-thong-erp">
                </div>
-               <div class="reason__desc ps-4">
-                  <h4 class="fs-5 lh-sm  my-3 ">Tư vấn hệ thống</h4>
-                  <p class="lh-lg fs-6">
-                     Với kinh nghiệm trên 9 năm ngành công nghệ thông tin. Chúng tôi sẽ tư vấn cho doanh nghiệp bạn sử
-                     dụng tài nguyên Server, mạng, máy tính, wifi một cách hợp lý nhất, tiết kiệm chi phí nhất và đạt
-                     hiệu quả cao trong công việc.
+
+               <div class="carousel-item">
+                  <img src="./assets/img/iot.jpg" class="carousel-img d-block vw-100  " alt="big-data-iot">
+               </div>
+
+               <div class="carousel-item active">
+                  <img src="./assets/img/lap-trinh-ung-dung.png" class="carousel-img d-block vw-100  " alt="e-commerce">
+               </div>
+            </div>
+            <button class="carousel-control-prev d-none d-md-block" type="button" data-bs-target="#carouselExample"
+               data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next d-none d-md-block" type="button" data-bs-target="#carouselExample"
+               data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
+            </button>
+         </div>
+      </section>
+      <!-- End Intro -->
+
+      <!-- TITLE -->
+      <section id="about" class="pt-100 pb-100">
+         <div class="container">
+            <h1 class="fs-1 text-center lh-sm" data-aos="fade-down">Công ty thiết kế phần mềm,
+               website </br>
+               <strong>IOT SOFTWARE VN</strong></br>
+               Uy Tín - Chuyên Nghiệp
+            </h1>
+
+            <div class="row mt-5">
+               <div class="col-12 col-lg-6 text-center " data-aos="fade-right">
+                  <img class="img-fluid" src="./assets/img/gioi-thieu-ve-cong-ty.png" alt="">
+               </div>
+               <div class="col-12 col-lg-6 " data-aos="fade-left">
+                  <p class="lh-base mt-3 mt-lg-0">Được thành lập bởi các chuyên gia với nhiều năm kinh nghiệm đáp ứng
+                     nhu
+                     cầu về lĩnh vực
+                     CNTT, IOT, AI,
+                     Computer Vision, Big Data, APP...</p>
+                  <p class="lh-base  mt-3">Trong thời đại thông tin hóa, mọi thứ trong cuộc sống của chúng
+                     ta trở nên
+                     nhanh và thuận
+                     tiện hơn thì đương nhiên cách truyền tải thông tin cũng có nhiều thay đổi.
                   </p>
+                  <p class="lh-base  mt-3">Chúng
+                     tôi hướng tới
+                     thời đại mới với phương châm luôn lắng nghe những ý kiến, phản hồi từ quý khách hàng
+                     và
+                     nỗ lực hết mình nhằm xây dựng và cung cấp những hệ thống công nghệ thông tin có độ
+                     tin
+                     cậy ngày càng cao.</p>
                </div>
             </div>
 
-            <div class="col-12 col-md-6 d-flex flex-row  p-4">
-               <div class="reason__icon p-4 d-flex align-self-center">
-                  <i class="fas fa-microchip fs-2"></i>
+            <div class="row mt-5 justify-content-center" data-aos="fade-up">
+               <div class="title-item col-12 col-md-6 col-lg-4 roun text-center mt-4">
+                  <img class="img-fluid rounded" src="./assets/img/dich-vu-ung-dung.jpg" alt="dich-vu-ung-dung">
                </div>
-               <div class="reason__desc ps-4">
-                  <h4 class="fs-5 lh-sm  my-3 ">Ứng dụng công nghệ</h4>
-                  <p class="lh-lg fs-6">
-                     Đối với dự án khó như thiết kế website dạy học trực tuyến, chúng tôi lựa chọn .NET để thực hiện dự
-                     án này. Vì đây là ngôn ngữ
-                     mạnh mẽ với tính bảo mật cao, được sử dụng rộng rãi trong các dự án web-application.
-                  </p>
+               <div class="title-item col-12 col-md-6 col-lg-4 roun text-center mt-4">
+                  <img class="img-fluid rounded" src="./assets/img/dich-vu-website.jpg" alt="dich-vu-website">
+               </div>
+               <div class="title-item col-12 col-md-6 col-lg-4 roun text-center mt-4">
+                  <img class="img-fluid rounded" src="./assets/img/dich-vu-iot.jpg" alt="dich-vu-iot">
                </div>
             </div>
-
-
-            <div class="col-12 col-md-6 d-flex flex-row  p-4">
-               <div class="reason__icon p-4 d-flex align-self-center">
-                  <i class="fas fa-thumbs-up fs-2"></i>
-               </div>
-               <div class="reason__desc ps-4">
-                  <h4 class="fs-5 lh-sm  my-3 ">Sự tin tưởng tuyệt đối</h4>
-                  <p class="lh-lg fs-6">
-                     Đội ngũ hỗ trợ luôn sẵn sàng, lắng nghe và hỗ trợ nhiệt tình.
-                     Chúng tôi luôn mong muốn hỗ trợ khách hàng 1 cách tốt nhất. Đảm bảo sự tin tưởng tuyệt đối cho
-                     khách hàng khi hợp tác cùng chúng tôi.
-                     chính xác giúp các bạn tránh mất nhiều thời gian.</p>
-               </div>
-            </div>
-
-            <div class="col-12 col-md-6 d-flex flex-row  p-4">
-               <div class="reason__icon p-4 d-flex align-self-center">
-                  <i class="fas fa-shield-alt fs-2"></i>
-               </div>
-               <div class="reason__desc ps-4">
-                  <h4 class="fs-5 lh-sm  my-3 ">Cam kết bảo mật</h4>
-                  <p class="lh-lg fs-6">
-                     Cam kết bảo mật dữ liệu khách hàng. Sự uy tín của chúng tôi tạo lên thương hiệu của chúng tôi.
-                     Ngoài
-                     ra, chúng tôi còn tư vấn cho doanh nghiệp bảo mật như thế nào là an toàn và tốt nhất.
-                  </p>
-               </div>
-            </div>
-
-            <div class="col-12 col-md-6 d-flex flex-row  p-4">
-               <div class="reason__icon p-4 d-flex align-self-center">
-                  <i class="fas fa-forward fs-2"></i>
-               </div>
-               <div class="reason__desc ps-4">
-                  <h4 class="fs-5 lh-sm  my-3 ">Xử lí nhanh</h4>
-                  <p class="lh-lg fs-6">
-                     Luôn online trên zalo, facebook và điện thoại. Khách hàng chỉ cần gọi là chúng tôi hỗ trợ ngay sau
-                     30 giây. Hoặc có mặt tại văn phòng sau 30 phút.
-                  </p>
-               </div>
-            </div>
-            <div class="col-12 col-md-6 d-flex flex-row  p-4">
-               <div class="reason__icon p-4 d-flex align-self-center">
-                  <i class="fas fa-user-tie fs-2"></i>
-               </div>
-               <div class="reason__desc ps-4">
-                  <h4 class="fs-5 lh-sm  my-3 ">Trách nhiệm</h4>
-                  <p class="lh-lg fs-6">
-                     Thỏa mãn tốt nhất nhu cầu của khách hàng, đảm bảo chất lượng sản phẩm và dịch vụ đã cung cấp.
-                  </p>
-               </div>
-            </div>
-
-
 
          </div>
-      </div>
-   </section>
-   <!-- End REASON CHOOSE -->
+      </section>
+      <!-- End ABOUT -->
 
-   <!-- CODE LOGO -->
-   <!-- <section style="height:500px; background-color: #777;">
+      <!-- SERVICE -->
+      <section id="service" class="pt-100 pb-100">
+         <div class="container py-5" data-aos="zoom-out">
+            <div class="row">
+               <div class="col-12 col-md-8 col-xl-9">
+                  <p class="text-light fs-4 fw-bold pb-4">IOTSOFTVN có thể giúp gì cho bạn ?</p>
+                  <p class="text-light fs-5 fst-italic lh-base">Chúng tôi cung cấp những giải pháp công nghệ thông tin
+                     (CNTT) tốt
+                     nhất
+                     cho
+                     doanh
+                     nghiệp
+                     của bạn.</p>
+               </div>
+               <div class="col-12 col-md-4 col-xl-3 d-flex align-items-center justify-content-center pt-4 pt-md-0">
+                  <a class="service-link text-center py-3 px-md-5 fs-4 text-decoration-none text-dark" href="#">Liên
+                     Hệ</a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End SERVICE -->
+
+      <!-- SERVICE-APP -->
+      <section id="service-app" class="pt-100 pb-100">
+         <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-12 col-lg-5 " data-aos="fade-right">
+                  <h2 class="fs-2 fw-bold mb-3">Lập Trình Ứng Dụng</h2>
+                  <p class="lh-base">Với đội ngũ chuyên gia phần mềm có trình độ cao và dày dạn kinh nghiệm, IOT
+                     SOFTWARE
+                     tự
+                     hào là một tổ chức có thể cung cấp các dịch vụ với chất lượng cao, đủ để đáp ứng những nhu cầu phức
+                     tạp nhất, những đòi hỏi khắt khe nhất về chất lượng sản phẩm.</p>
+                  <ul class="list-unstyled">
+                     <li class="d-flex mt-2"><i class="far fa-caret-square-right p-1 me-2"></i>
+                        <p class="lh-base">Phân tích, thiết kế các hệ thống thông
+                           tin phục vụ công tác tin học hóa theo
+                           yêu cầu
+                           của các đơn
+                           vị, tổ chức.</p>
+                     </li>
+                     <li class="d-flex mt-2"><i class="far fa-caret-square-right p-1 me-2"></i>
+                        <p class="lh-base">Xây dựng hệ thống các phần mềm hỗ trợ
+                           nhằm nâng cao công tác quản lý.</p>
+                     </li>
+                     <li class="d-flex mt-2"><i class="far fa-caret-square-right p-1 me-2"></i>
+                        <p class="lh-base">Triển khai, đào tạo các phần mềm cho
+                           các tổ chức, doanh nghiệp.</p>
+                     </li>
+
+                  </ul>
+               </div>
+               <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0"
+                  data-aos="fade-left">
+                  <img class="img-fluid" src="./assets/img/lap-trinh-ung-dung-1.png" alt="lap-trinh-dung-dung">
+               </div>
+
+            </div>
+         </div>
+      </section>
+      <!-- End SERVICE-APP -->
+
+      <!-- SERVICE-WEB -->
+      <section id="service-web" class="pt-100 pb-100">
+         <div class="container">
+            <div class="row justify-content-center">
+               <div
+                  class="service-web-img col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0"
+                  data-aos="fade-right">
+                  <img class="img-fluid" src="./assets/img/lap-trinh-wep-app.png" alt="lap-trinh-web-app">
+               </div>
+
+               <div class="service-web-info col-12 col-lg-5 " data-aos="fade-left">
+                  <h2 class="fs-2 fw-bold mb-3">Lập Trình Web-App</h2>
+                  <p class="lh-base">Chúng tôi không bán phần mềm, IOT Software chúng tôi thiết kế và lập trình web app
+                     theo
+                     nhu cầu riêng cho doanh nghiệp. Web-app tại IOT Software là giải pháp những vấn đề tồn đọng, tối ưu
+                     mô
+                     hình kinh doanh hiện tại, dễ dàng sử dụng mà không cần training nhân viên, báo cáo mọi vấn đề.</p>
+                  <ul class="list-unstyled">
+                     <li class="d-flex mt-2"><i class="far fa-caret-square-right p-1 me-2"></i>
+                        <p class="lh-base">Quản lý tài nguyên tập trung, tìm kiếm nhanh chóng.</p>
+                     </li>
+                     <li class="d-flex mt-2"><i class="far fa-caret-square-right p-1 me-2"></i>
+                        <p class="lh-base">Chạy trên nền tảng website, thiết bị có internet và web browser.</p>
+                     </li>
+                     <li class="d-flex mt-2"><i class="far fa-caret-square-right p-1 me-2"></i>
+                        <p class="lh-base">Phân quyền sử dụng tối ưu, mỗi nhân viên chỉ được truy cập vào các tính năng
+                           chỉ
+                           định.</p>
+                     </li>
+
+                  </ul>
+               </div>
+
+
+            </div>
+         </div>
+      </section>
+      <!-- End SERVICE-WEB -->
+
+      <!-- SERVICE-MOBILE -->
+      <section id="service-mobile" class="pt-100 pb-100">
+         <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-12 col-lg-5 " data-aos="fade-right">
+                  <h2 class="fs-2 fw-bold mb-3">Lập Trình Di Động</h2>
+                  <p class="lh-base"> Lập trình di động IOS/Android theo các công nghệ di động mới nhất từng thời điểm.
+                     Đáp
+                     ứng được những yêu cầu kĩ thuật cao cấp mà website bị giới hạn. Việc sở hữu một ứng dụng smartphone
+                     hoàn chỉnh giúp tổ chức, doanh nghiệp chiếm được nhiều thiện cảm hơn trong mắt khách hàng.</p>
+                  <ul class="list-unstyled">
+                     <li class="d-flex mt-2"><i class="far fa-caret-square-right p-1 me-2"></i>
+                        <p class="lh-base">Tư vấn thiết kế UI/UX.</p>
+                     </li>
+                     <li class="d-flex mt-2"><i class="far fa-caret-square-right p-1 me-2"></i>
+                        <p class="lh-base">Trọn gói từ website/web-service (quản lý) IOS và Android.</p>
+                     </li>
+                     <li class="d-flex mt-2"><i class="far fa-caret-square-right p-1 me-2"></i>
+                        <p class="lh-base">Chúng tôi đáp ứng mọi yêu cầu về tiến độ hoàn thành của sản phẩm theo đúng
+                           tiêu
+                           chuẩn của một ứng dụng di động chất lượng cao trên nền tảng iOS và Android.</p>
+                     </li>
+
+                  </ul>
+               </div>
+               <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0"
+                  data-aos="fade-left">
+                  <img class="img-fluid" src="./assets/img/lap-trinh-di-dong.png" alt="lap-trinh-di-dong">
+               </div>
+
+            </div>
+         </div>
+      </section>
+      <!-- End SERVICE-MOBILE -->
+
+      <!-- SERVICE-ECOMMERCE -->
+      <section id="service-ecommerce" class="pt-100 pb-100">
+         <div class="container">
+            <div class="row justify-content-center">
+               <div
+                  class="service-ecommerce-img col-12 col-lg-5 d-flex align-items-center justify-content-center mt-4 mt-lg-0"
+                  data-aos="fade-right">
+                  <img class="img-fluid" src="./assets/img/thuong-mai-dien-tu.png" alt="thuong-mai-dien-tu">
+               </div>
+
+               <div class="service-ecommerce-info col-12 col-lg-5 " data-aos="fade-left">
+                  <h2 class="fs-2 fw-bold mb-3">Thương Mại Điện Tử</h2>
+                  <p class="lh-base">Chính thức ra mắt và gia nhập thị trường Việt Nam từ năm 2019. với mục đích tạo ra
+                     một
+                     sàn giao dịch thương mại điện tử cho người Việt, kết nối người mua và người bán lại với nhau bằng
+                     những giao dịch cực kỳ đơn giản, tiện lợi, nhanh chóng, an toàn và hiệu quả nhất.</p>
+                  <ul class="list-unstyled">
+                     <li class="d-flex mt-2"><i class="far fa-caret-square-right p-1 me-2"></i>
+                        <p class="lh-base">Giao diện thiết kế đáp ứng được mọi yêu cầu.</p>
+                     </li>
+                     <li class="d-flex mt-2"><i class="far fa-caret-square-right p-1 me-2"></i>
+                        <p class="lh-base">Công nghệ thiết kế chuẩn SEO & Responsive tương thích với mọi loại thiết bị
+                           di
+                           động.</p>
+                     </li>
+                     <li class="d-flex mt-2"><i class="far fa-caret-square-right p-1 me-2"></i>
+                        <p class="lh-base">Chức năng bảo mật thông tin và dữ liệu khách hàng an toàn tuyệt đối. Hệ thống
+                           Cloud chống lại sự xâm nhập từ các tài khoản lạ.</p>
+                     </li>
+
+                  </ul>
+               </div>
+
+
+            </div>
+         </div>
+      </section>
+      <!-- End SERVICE-ECOMMERCE -->
+
+      <!-- REASON CHOOSE -->
+      <section id="reason" class="pt-100 pb-100" data-aos="zoom-out">
+         <div class="container">
+            <h3 class="text-center fs-2 pb-4 lh-base">Bạn nhận được gì từ dịch vụ của IOT SOFTWARE VN</h3>
+            <div class="row">
+
+               <div class="col-12 col-md-6 d-flex flex-row  p-4">
+                  <div class="reason__icon p-4 d-flex align-self-center">
+                     <i class="fas fa-server fs-2"></i>
+                  </div>
+                  <div class="reason__desc ps-4">
+                     <h4 class="fs-5 lh-sm  my-3 ">Tư vấn hệ thống</h4>
+                     <p class="lh-lg fs-6">
+                        Với kinh nghiệm trên 9 năm ngành công nghệ thông tin. Chúng tôi sẽ tư vấn cho doanh nghiệp bạn
+                        sử
+                        dụng tài nguyên Server, mạng, máy tính, wifi một cách hợp lý nhất, tiết kiệm chi phí nhất và đạt
+                        hiệu quả cao trong công việc.
+                     </p>
+                  </div>
+               </div>
+
+               <div class="col-12 col-md-6 d-flex flex-row  p-4">
+                  <div class="reason__icon p-4 d-flex align-self-center">
+                     <i class="fas fa-microchip fs-2"></i>
+                  </div>
+                  <div class="reason__desc ps-4">
+                     <h4 class="fs-5 lh-sm  my-3 ">Ứng dụng công nghệ</h4>
+                     <p class="lh-lg fs-6">
+                        Đối với dự án khó như thiết kế website dạy học trực tuyến, chúng tôi lựa chọn .NET để thực hiện
+                        dự
+                        án này. Vì đây là ngôn ngữ
+                        mạnh mẽ với tính bảo mật cao, được sử dụng rộng rãi trong các dự án web-application.
+                     </p>
+                  </div>
+               </div>
+
+
+               <div class="col-12 col-md-6 d-flex flex-row  p-4">
+                  <div class="reason__icon p-4 d-flex align-self-center">
+                     <i class="fas fa-thumbs-up fs-2"></i>
+                  </div>
+                  <div class="reason__desc ps-4">
+                     <h4 class="fs-5 lh-sm  my-3 ">Sự tin tưởng tuyệt đối</h4>
+                     <p class="lh-lg fs-6">
+                        Đội ngũ hỗ trợ luôn sẵn sàng, lắng nghe và hỗ trợ nhiệt tình.
+                        Chúng tôi luôn mong muốn hỗ trợ khách hàng 1 cách tốt nhất. Đảm bảo sự tin tưởng tuyệt đối cho
+                        khách hàng khi hợp tác cùng chúng tôi.
+                        chính xác giúp các bạn tránh mất nhiều thời gian.</p>
+                  </div>
+               </div>
+
+               <div class="col-12 col-md-6 d-flex flex-row  p-4">
+                  <div class="reason__icon p-4 d-flex align-self-center">
+                     <i class="fas fa-shield-alt fs-2"></i>
+                  </div>
+                  <div class="reason__desc ps-4">
+                     <h4 class="fs-5 lh-sm  my-3 ">Cam kết bảo mật</h4>
+                     <p class="lh-lg fs-6">
+                        Cam kết bảo mật dữ liệu khách hàng. Sự uy tín của chúng tôi tạo lên thương hiệu của chúng tôi.
+                        Ngoài
+                        ra, chúng tôi còn tư vấn cho doanh nghiệp bảo mật như thế nào là an toàn và tốt nhất.
+                     </p>
+                  </div>
+               </div>
+
+               <div class="col-12 col-md-6 d-flex flex-row  p-4">
+                  <div class="reason__icon p-4 d-flex align-self-center">
+                     <i class="fas fa-forward fs-2"></i>
+                  </div>
+                  <div class="reason__desc ps-4">
+                     <h4 class="fs-5 lh-sm  my-3 ">Xử lí nhanh</h4>
+                     <p class="lh-lg fs-6">
+                        Luôn online trên zalo, facebook và điện thoại. Khách hàng chỉ cần gọi là chúng tôi hỗ trợ ngay
+                        sau
+                        30 giây. Hoặc có mặt tại văn phòng sau 30 phút.
+                     </p>
+                  </div>
+               </div>
+               <div class="col-12 col-md-6 d-flex flex-row  p-4">
+                  <div class="reason__icon p-4 d-flex align-self-center">
+                     <i class="fas fa-user-tie fs-2"></i>
+                  </div>
+                  <div class="reason__desc ps-4">
+                     <h4 class="fs-5 lh-sm  my-3 ">Trách nhiệm</h4>
+                     <p class="lh-lg fs-6">
+                        Thỏa mãn tốt nhất nhu cầu của khách hàng, đảm bảo chất lượng sản phẩm và dịch vụ đã cung cấp.
+                     </p>
+                  </div>
+               </div>
+
+
+
+            </div>
+         </div>
+      </section>
+      <!-- End REASON CHOOSE -->
+
+      <!-- CODE LOGO -->
+      <!-- <section style="height:500px; background-color: #777;">
       <div class="container">
          <div class="logo-name p-2 d-flex">
             <div class="logo-name__item d-flex justify-content-center align-items-center">
@@ -461,351 +482,360 @@
          </div>
       </div>
    </section> -->
-   <!-- End CODE LOGO -->
+      <!-- End CODE LOGO -->
 
 
-   <!-- PRODUCT -->
-   <section id="product" class="position-relative overflow-hidden pt-100 pb-100">
-      <div id="tsparticles" class="position-absolute top-0 bottom-0 start-0 end-0"></div>
-      <div class="container ">
-         <h3 class=" text-center fs-2 mb-3 " data-aos="fade-right"><strong>Dự Án</strong> Tiêu Biểu</h3>
-         <p class="text-center lh-base mb-4 px-5 " data-aos="fade-right">Với nhiều năm hoạt động trong lĩnh vực công
-            nghệ, chúng tôi cung cấp các
-            dịch vụ
-            "Phần mềm
-            quản lý
-            kho", "Thiết kế
-            website bán hàng", "Hệ thống quản lý doanh nghiệp", "Phần mềm di động".<br> IOT SOFT VN luôn làm
-            <em>Thỏa mãn tốt nhất nhu cầu của khách hàng, đảm bảo chất lượng sản phẩm và dịch vụ đã cung cấp</em>.
-         </p>
+      <!-- PRODUCT -->
+      <section id="product" class="position-relative overflow-hidden pt-100 pb-100">
+         <div id="tsparticles" class="position-absolute top-0 bottom-0 start-0 end-0"></div>
+         <div class="container ">
+            <h3 class=" text-center fs-2 mb-3 " data-aos="fade-right"><strong>Dự Án</strong> Tiêu Biểu</h3>
+            <p class="text-center lh-base mb-4 px-5 " data-aos="fade-right">Với nhiều năm hoạt động trong lĩnh vực công
+               nghệ, chúng tôi cung cấp các
+               dịch vụ
+               "Phần mềm
+               quản lý
+               kho", "Thiết kế
+               website bán hàng", "Hệ thống quản lý doanh nghiệp", "Phần mềm di động".<br> IOT SOFT VN luôn làm
+               <em>Thỏa mãn tốt nhất nhu cầu của khách hàng, đảm bảo chất lượng sản phẩm và dịch vụ đã cung cấp</em>.
+            </p>
 
-         <div class="swiper-container" data-aos="fade-left">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper align-items-center">
-               <!-- Slides -->
-               <div class="swiper-slide  rounded d-flex flex-column p-3">
-                  <a href="#" class=" rounded ">
-                     <img class="img-fluid swiper-lazy " src="./assets/img/slide-quan-li-ban-hang.png"
-                        alt="He-thong-quan-ly-ban-hang ">
-                  </a>
-                  <a href="#" class="text-decoration-none">
-                     <h4 class="fs-4 lh-sm my-3 text-center">Hệ Thống Quản Lý Bán Hàng (CRM - Sales Managerment)</h4>
-                  </a>
-                  <p class="fs-5 lh-sm">
-                     Phần mềm hỗ trợ doanh nghiệp, cá nhân trong việc quản lý các phân đoạn bán hàng như: Nhập
-                     hàng,
-                     xuất hàng, quản lý hàng hóa, quản lí kho, quản lý đơn hàng, chăm sóc khách hàng, các dịch vụ
-                     ...
-                  </p>
+            <div class="swiper-container" data-aos="fade-left">
+               <!-- Additional required wrapper -->
+               <div class="swiper-wrapper align-items-center">
+                  <!-- Slides -->
+                  <div class="swiper-slide  rounded d-flex flex-column p-3">
+                     <a href="#" class=" rounded ">
+                        <img class="img-fluid swiper-lazy " src="./assets/img/slide-quan-li-ban-hang.png"
+                           alt="He-thong-quan-ly-ban-hang ">
+                     </a>
+                     <a href="#" class="text-decoration-none">
+                        <h4 class="fs-4 lh-sm my-3 text-center">Hệ Thống Quản Lý Bán Hàng (CRM - Sales Managerment)</h4>
+                     </a>
+                     <p class="fs-5 lh-sm">
+                        Phần mềm hỗ trợ doanh nghiệp, cá nhân trong việc quản lý các phân đoạn bán hàng như: Nhập
+                        hàng,
+                        xuất hàng, quản lý hàng hóa, quản lí kho, quản lý đơn hàng, chăm sóc khách hàng, các dịch vụ
+                        ...
+                     </p>
+                  </div>
+
+
+                  <div class="swiper-slide  rounded d-flex flex-column p-3">
+                     <a href="#" class=" rounded ">
+                        <img class="img-fluid swiper-lazy" src="./assets/img/slide-e-learning.jpg"
+                           alt="He-thong-quan-ly-hoc-tap-truc-tuyen ">
+                     </a>
+                     <a href="#" class="text-decoration-none">
+                        <h4 class="fs-4 lh-sm my-3 text-center">Hệ Thống Quản Lý Học Tập Trực Tuyến (E-Learning)</h4>
+                     </a>
+                     <p class="fs-5 lh-sm">
+                        Hệ thống quản lý học tập trực tuyến được phát triển và xây dựng bởi công ty IOT Software với
+                        đầy
+                        đủ các tính năng đa dạng như quản lý khóa học, giảng viên, học viên. Áp
+                        dụng cho doanh nghiệp quản lý đào tạo trực tuyến nội bộ cho các cán
+                        bộ, nhân viên mọi lúc, mọi nơi.
+                     </p>
+                  </div>
+
+
+                  <div class="swiper-slide  rounded d-flex flex-column p-3">
+                     <a href="#" class=" rounded ">
+                        <img class="img-fluid swiper-lazy" src="./assets/img/slide-thuong-mai-dien-tu.png"
+                           alt="He-thong-thuong-mai-dien-tu ">
+                     </a>
+                     <a href="#" class="text-decoration-none">
+                        <h4 class="fs-4 lh-sm my-3 text-center">Hệ Thống Thương Mại Điện Tử (E-Commerce)</h4>
+                     </a>
+                     <p class="fs-5 lh-sm">
+                        Chính thức ra mắt và gia nhập thị trường Việt Nam từ năm 2019. với mục đích tạo ra một sàn
+                        giao
+                        dịch thương mại điện tử cho người Việt, kết nối người mua và người bán lại với nhau bằng
+                        những
+                        giao dịch cực kỳ đơn giản, tiện lợi, nhanh chóng, an toàn và hiệu quả nhất.
+                     </p>
+                  </div>
+
+
+                  <div class="swiper-slide  rounded d-flex flex-column p-3">
+                     <a href="#" class=" rounded ">
+                        <img class="img-fluid swiper-lazy" src="./assets/img/slide-quan-li-xuat-van-chuyen.jpg"
+                           alt="He-thong-quan-ly-xuat-van-chuyen ">
+                     </a>
+                     <a href="#" class="text-decoration-none">
+                        <h4 class="fs-4 lh-sm my-3 text-center">Hệ Thống Quản Lý Xuất Vận Chuyển Hàng Hóa</h4>
+                     </a>
+                     <p class="fs-5 lh-sm">
+                        Hệ thống do công ty IOTSOFTWARE VN xây dựng, phát triển dựa trên đa nền tảng
+                        với
+                        đầy đủ tính năng cho khách hàng, tài xế và phòng điều hành. Phần mềm quản lý xuất vận chuyển
+                        thực hiện hỗ trợ các quy trình đặt hàng, giao nhận, chuyển điều phối xe, quản lý các loại
+                        xe...
+                     </p>
+                  </div>
+
+
+
+                  <div class="swiper-slide  rounded d-flex flex-column p-3">
+                     <a href="#" class=" rounded ">
+                        <img class="img-fluid swiper-lazy" src="./assets/img/slide-xo-so-kien-thiet.png"
+                           alt="He-thong-dong-quan-ly-tra-thuong-xo-so-kien-thiet ">
+                     </a>
+                     <a href="#" class="text-decoration-none">
+                        <h4 class="fs-4 lh-sm my-3 text-center">Hệ Thống Quản Lý Trả Thưởng Xổ Số Kiến Thiết</h4>
+                     </a>
+                     <p class="fs-5 lh-sm">
+                        Phần mềm hỗ trợ các đại lý, doanh nghiệp trong việc quản lý trả thưởng Xổ Số
+                        Kiến Thức được phát biển và xây dựng bởi công ty IOTSOFTVN với đầy đủ các tính
+                        năng
+                        đa dạng hỗ trợ việc chi trả thưởng cho cá nhân và đại lý.
+                     </p>
+                  </div>
+
+                  <div class="swiper-slide  rounded d-flex flex-column p-3">
+                     <a href="#" class=" rounded ">
+                        <img class="img-fluid swiper-lazy" src="./assets/img/slide-dong-bo-may-cham-cong.png"
+                           alt="He-thong-dong-bo-va-tang-toc-tai-du-lieu-may-cham-cong ">
+                     </a>
+                     <a href="#" class="text-decoration-none">
+                        <h4 class="fs-4 lh-sm my-3 text-center">Hệ Thống Đồng Bộ Và Tăng Tốc Tải Dữ Liệu Máy Chấm Công
+                        </h4>
+                     </a>
+                     <p class="fs-5 lh-sm">
+                        Hệ thống đồng bộ và tăng tốc tải dữ liệu máy chấm công ra đời giúp giảm thời gian đồng bộ dữ
+                        liệu của các máy chấm công trong các nhà máy, khu công nghiệp,...
+                     </p>
+                  </div>
+
+
+
+
+
+                  <div class="swiper-slide  rounded d-flex flex-column p-3">
+                     <a href="#" class=" rounded ">
+                        <img class="img-fluid swiper-lazy" src="./assets/img/slide-booking-xuat-van-chuyen.png"
+                           alt="Pham-mem-booking-xuat-van-chuyen">
+                     </a>
+                     <a href="#" class="text-decoration-none">
+                        <h4 class="fs-4 lh-sm my-3 text-center">Phần Mềm Booking Xuất Vận Chuyển</h4>
+                     </a>
+                     <p class="fs-5 lh-sm">
+                        Phần mềm Booking xuất vận chuyển do công ty IOTSOFTVN xây dựng, phát triển dựa trên đa
+                        nền
+                        tảng với đầy đủ tính năng, hỗ trợ đặt lịch, điều phối xe, quản lý việc thu gom rác nhằm tối
+                        ưu
+                        hóa việc vận chuyển và xử lý rác. Giúp tối ưu và giảm chi phí trong việc xử lý rác.
+                     </p>
+                  </div>
+
+                  <div class="swiper-slide  rounded d-flex flex-column p-3">
+                     <a href="#" class=" rounded ">
+                        <img class="img-fluid swiper-lazy" src="./assets/img/slide-quan-li-cong-no.jpg"
+                           alt="Pham-mem-booking-xuat-van-chuyen">
+                     </a>
+                     <a href="#" class="text-decoration-none">
+                        <h4 class="fs-4 lh-sm my-3 text-center">Phần Mềm Quản Lý Công Nợ</h4>
+                     </a>
+                     <p class="fs-5 lh-sm">
+                        Các doanh nghiệp có số lượng khách hàng lớn nhưng
+                        việc kiểm soát công nợ lại thực hiện thủ công. Sai xót rất dễ xảy ra. Phần mềm
+                        do
+                        công ty IOT SOFTWARE VN thiết kế mang tính đơn giản hóa việc xử
+                        lý công nợ của khách hàng với nhiều hình thức thanh toán theo từng mô hình kinh
+                        doanh.
+                     </p>
+                  </div>
+
                </div>
 
-
-               <div class="swiper-slide  rounded d-flex flex-column p-3">
-                  <a href="#" class=" rounded ">
-                     <img class="img-fluid swiper-lazy" src="./assets/img/slide-e-learning.jpg"
-                        alt="He-thong-quan-ly-hoc-tap-truc-tuyen ">
-                  </a>
-                  <a href="#" class="text-decoration-none">
-                     <h4 class="fs-4 lh-sm my-3 text-center">Hệ Thống Quản Lý Học Tập Trực Tuyến (E-Learning)</h4>
-                  </a>
-                  <p class="fs-5 lh-sm">
-                     Hệ thống quản lý học tập trực tuyến được phát triển và xây dựng bởi công ty IOT Software với
-                     đầy
-                     đủ các tính năng đa dạng như quản lý khóa học, giảng viên, học viên. Áp
-                     dụng cho doanh nghiệp quản lý đào tạo trực tuyến nội bộ cho các cán
-                     bộ, nhân viên mọi lúc, mọi nơi.
-                  </p>
-               </div>
-
-
-               <div class="swiper-slide  rounded d-flex flex-column p-3">
-                  <a href="#" class=" rounded ">
-                     <img class="img-fluid swiper-lazy" src="./assets/img/slide-thuong-mai-dien-tu.png"
-                        alt="He-thong-thuong-mai-dien-tu ">
-                  </a>
-                  <a href="#" class="text-decoration-none">
-                     <h4 class="fs-4 lh-sm my-3 text-center">Hệ Thống Thương Mại Điện Tử (E-Commerce)</h4>
-                  </a>
-                  <p class="fs-5 lh-sm">
-                     Chính thức ra mắt và gia nhập thị trường Việt Nam từ năm 2019. với mục đích tạo ra một sàn
-                     giao
-                     dịch thương mại điện tử cho người Việt, kết nối người mua và người bán lại với nhau bằng
-                     những
-                     giao dịch cực kỳ đơn giản, tiện lợi, nhanh chóng, an toàn và hiệu quả nhất.
-                  </p>
-               </div>
-
-
-               <div class="swiper-slide  rounded d-flex flex-column p-3">
-                  <a href="#" class=" rounded ">
-                     <img class="img-fluid swiper-lazy" src="./assets/img/slide-quan-li-xuat-van-chuyen.jpg"
-                        alt="He-thong-quan-ly-xuat-van-chuyen ">
-                  </a>
-                  <a href="#" class="text-decoration-none">
-                     <h4 class="fs-4 lh-sm my-3 text-center">Hệ Thống Quản Lý Xuất Vận Chuyển Hàng Hóa</h4>
-                  </a>
-                  <p class="fs-5 lh-sm">
-                     Hệ thống do công ty IOTSOFTWARE VN xây dựng, phát triển dựa trên đa nền tảng
-                     với
-                     đầy đủ tính năng cho khách hàng, tài xế và phòng điều hành. Phần mềm quản lý xuất vận chuyển
-                     thực hiện hỗ trợ các quy trình đặt hàng, giao nhận, chuyển điều phối xe, quản lý các loại
-                     xe...
-                  </p>
-               </div>
-
-
-
-               <div class="swiper-slide  rounded d-flex flex-column p-3">
-                  <a href="#" class=" rounded ">
-                     <img class="img-fluid swiper-lazy" src="./assets/img/slide-xo-so-kien-thiet.png"
-                        alt="He-thong-dong-quan-ly-tra-thuong-xo-so-kien-thiet ">
-                  </a>
-                  <a href="#" class="text-decoration-none">
-                     <h4 class="fs-4 lh-sm my-3 text-center">Hệ Thống Quản Lý Trả Thưởng Xổ Số Kiến Thiết</h4>
-                  </a>
-                  <p class="fs-5 lh-sm">
-                     Phần mềm hỗ trợ các đại lý, doanh nghiệp trong việc quản lý trả thưởng Xổ Số
-                     Kiến Thức được phát biển và xây dựng bởi công ty IOTSOFTVN với đầy đủ các tính
-                     năng
-                     đa dạng hỗ trợ việc chi trả thưởng cho cá nhân và đại lý.
-                  </p>
-               </div>
-
-               <div class="swiper-slide  rounded d-flex flex-column p-3">
-                  <a href="#" class=" rounded ">
-                     <img class="img-fluid swiper-lazy" src="./assets/img/slide-dong-bo-may-cham-cong.png"
-                        alt="He-thong-dong-bo-va-tang-toc-tai-du-lieu-may-cham-cong ">
-                  </a>
-                  <a href="#" class="text-decoration-none">
-                     <h4 class="fs-4 lh-sm my-3 text-center">Hệ Thống Đồng Bộ Và Tăng Tốc Tải Dữ Liệu Máy Chấm Công</h4>
-                  </a>
-                  <p class="fs-5 lh-sm">
-                     Hệ thống đồng bộ và tăng tốc tải dữ liệu máy chấm công ra đời giúp giảm thời gian đồng bộ dữ
-                     liệu của các máy chấm công trong các nhà máy, khu công nghiệp,...
-                  </p>
-               </div>
-
-
-
-
-
-               <div class="swiper-slide  rounded d-flex flex-column p-3">
-                  <a href="#" class=" rounded ">
-                     <img class="img-fluid swiper-lazy" src="./assets/img/slide-booking-xuat-van-chuyen.png"
-                        alt="Pham-mem-booking-xuat-van-chuyen">
-                  </a>
-                  <a href="#" class="text-decoration-none">
-                     <h4 class="fs-4 lh-sm my-3 text-center">Phần Mềm Booking Xuất Vận Chuyển</h4>
-                  </a>
-                  <p class="fs-5 lh-sm">
-                     Phần mềm Booking xuất vận chuyển do công ty IOTSOFTVN xây dựng, phát triển dựa trên đa
-                     nền
-                     tảng với đầy đủ tính năng, hỗ trợ đặt lịch, điều phối xe, quản lý việc thu gom rác nhằm tối
-                     ưu
-                     hóa việc vận chuyển và xử lý rác. Giúp tối ưu và giảm chi phí trong việc xử lý rác.
-                  </p>
-               </div>
-
-               <div class="swiper-slide  rounded d-flex flex-column p-3">
-                  <a href="#" class=" rounded ">
-                     <img class="img-fluid swiper-lazy" src="./assets/img/slide-quan-li-cong-no.jpg"
-                        alt="Pham-mem-booking-xuat-van-chuyen">
-                  </a>
-                  <a href="#" class="text-decoration-none">
-                     <h4 class="fs-4 lh-sm my-3 text-center">Phần Mềm Quản Lý Công Nợ</h4>
-                  </a>
-                  <p class="fs-5 lh-sm">
-                     Các doanh nghiệp có số lượng khách hàng lớn nhưng
-                     việc kiểm soát công nợ lại thực hiện thủ công. Sai xót rất dễ xảy ra. Phần mềm
-                     do
-                     công ty IOT SOFTWARE VN thiết kế mang tính đơn giản hóa việc xử
-                     lý công nợ của khách hàng với nhiều hình thức thanh toán theo từng mô hình kinh
-                     doanh.
-                  </p>
-               </div>
-
-            </div>
-
-            <div class="swiper-pagination mt-4 position-relative"></div>
-         </div>
-      </div>
-   </section>
-   <!-- End PRODUCT -->
-
-   <!-- CUSTOMER -->
-   <section id="customer" class="pt-100 pb-100" data-aos="zoom-out">
-      <div class="container">
-         <h3 class="text-center fs-2 mb-5"><strong>Khách Hàng</strong> Tiêu Biểu</h3>
-         <div class="row justify-content-center">
-            <div class="col-6 col-md-3 col-xl-3 text-center my-3 hov-img-zoom">
-               <img src="./assets/img/logo-customer/cp-group.png" alt="" width="40%">
-            </div>
-            <div class="col-6 col-md-3 col-xl-3 text-center my-3 hov-img-zoom">
-               <img src="./assets/img/logo-customer/ats.png" alt="" width="40%">
-            </div>
-            <div class="col-6 col-md-3 col-xl-3 text-center my-3 hov-img-zoom">
-               <img src="./assets/img/logo-customer/casumina.png" alt="" width="40%">
-            </div>
-            <div class="col-6 col-md-3 col-xl-3 text-center my-3 hov-img-zoom">
-               <img src="./assets/img/logo-customer/central-park-hotel.png" alt="" width="40%">
-            </div>
-            <div class="col-6 col-md-3 col-xl-3 text-center my-3 hov-img-zoom">
-               <img src="./assets/img/logo-customer/cong-ty-moi-truong-sonadezi.png" alt="" width="40%">
-            </div>
-            <div class="col-6 col-md-3 col-xl-3 text-center my-3 hov-img-zoom">
-               <img src="./assets/img/logo-customer/damri.png" alt="" width="40%">
-            </div>
-            <div class="col-6 col-md-3 col-xl-3 text-center my-3 hov-img-zoom">
-               <img src="./assets/img/logo-customer/ford-phu-my.png" alt="" width="40%">
-            </div>
-            <div class="col-6 col-md-3 col-xl-3 text-center my-3 hov-img-zoom">
-               <img src="./assets/img/logo-customer/sonadezi.png" alt="" width="40%">
-            </div>
-            <div class="col-6 col-md-3 col-xl-3 text-center my-3 hov-img-zoom">
-               <img src="./assets/img/logo-customer/taekwang.png" alt="" width="40%">
-            </div>
-            <div class="col-6 col-md-3 col-xl-3 text-center my-3 hov-img-zoom">
-               <img src="./assets/img/logo-customer/truong-cao-dang-y-te-dong-nai.png" alt="" width="40%">
-            </div>
-            <div class="col-6 col-md-3 col-xl-3 text-center my-3 hov-img-zoom">
-               <img src="./assets/img/logo-customer/ubnd-long-thanh.png" alt="" width="40%">
-            </div>
-            <div class="col-6 col-md-3 col-xl-3 text-center my-3 hov-img-zoom">
-               <img src="./assets/img/logo-customer/vinimex.png" alt="" width="40%">
+               <div class="swiper-pagination mt-4 position-relative"></div>
             </div>
          </div>
-      </div>
-   </section>
-   <!-- End CUSTOMER -->
+      </section>
+      <!-- End PRODUCT -->
 
-   <!-- CUSTOMER IDEA -->
-   <section id="customer-idea" class="pt-100 pb-100">
-      <div class="container" data-aos="zoom-out">
-         <h3 class="text-center fs-2 mb-5"><strong>Ý Kiến</strong> Khách Hàng</h3>
-         <div class="slick-slider">
-            <div class="customer px-3">
-               <div class="customer__logo d-flex align-items-center justify-content-center">
-                  <img src="./assets/img/logo-customer/taekwang.png" alt="" width="100" class="img-fluid">
+      <!-- CUSTOMER -->
+      <section id="customer" class="pt-100 pb-100" data-aos="zoom-out">
+         <div class="container">
+            <h3 class="text-center fs-2 mb-5"><strong>Khách Hàng</strong> Tiêu Biểu</h3>
+            <div class="row justify-content-center">
+               <div class="col-6 col-md-3 col-xl-3 text-center my-3 hov-img-zoom">
+                  <img src="./assets/img/logo-customer/cp-group.png" alt="" width="40%">
                </div>
-               <div class="customer__info text-center lh-sm">
-                  <p class="px-5">
-                     Ông Lương Thanh Độ <br>
-                     <span>Chủ tịch HĐQT - Công ty Cổ phần Taekwang Vina</span>
-                  </p>
+               <div class="col-6 col-md-3 col-xl-3 text-center my-3 hov-img-zoom">
+                  <img src="./assets/img/logo-customer/ats.png" alt="" width="40%">
                </div>
-               <blockquote clas="blockquote ">
-                  <p class="text-center py-3 px-2 lh-base">"Chất lượng sản phẩm cũng như dịch vụ của các bạn luôn đáp
-                     ứng tốt các yêu cầu từ chúng tôi. Có 4 từ để tôi nhận xét về IOTSOFTVN, đó là: Uy tín, Sáng tạo,
-                     Trách Nhiệm và Nhiệt tình."</p>
-               </blockquote>
+               <div class="col-6 col-md-3 col-xl-3 text-center my-3 hov-img-zoom">
+                  <img src="./assets/img/logo-customer/casumina.png" alt="" width="40%">
+               </div>
+               <div class="col-6 col-md-3 col-xl-3 text-center my-3 hov-img-zoom">
+                  <img src="./assets/img/logo-customer/central-park-hotel.png" alt="" width="40%">
+               </div>
+               <div class="col-6 col-md-3 col-xl-3 text-center my-3 hov-img-zoom">
+                  <img src="./assets/img/logo-customer/cong-ty-moi-truong-sonadezi.png" alt="" width="40%">
+               </div>
+               <div class="col-6 col-md-3 col-xl-3 text-center my-3 hov-img-zoom">
+                  <img src="./assets/img/logo-customer/damri.png" alt="" width="40%">
+               </div>
+               <div class="col-6 col-md-3 col-xl-3 text-center my-3 hov-img-zoom">
+                  <img src="./assets/img/logo-customer/ford-phu-my.png" alt="" width="40%">
+               </div>
+               <div class="col-6 col-md-3 col-xl-3 text-center my-3 hov-img-zoom">
+                  <img src="./assets/img/logo-customer/sonadezi.png" alt="" width="40%">
+               </div>
+               <div class="col-6 col-md-3 col-xl-3 text-center my-3 hov-img-zoom">
+                  <img src="./assets/img/logo-customer/taekwang.png" alt="" width="40%">
+               </div>
+               <div class="col-6 col-md-3 col-xl-3 text-center my-3 hov-img-zoom">
+                  <img src="./assets/img/logo-customer/truong-cao-dang-y-te-dong-nai.png" alt="" width="40%">
+               </div>
+               <div class="col-6 col-md-3 col-xl-3 text-center my-3 hov-img-zoom">
+                  <img src="./assets/img/logo-customer/ubnd-long-thanh.png" alt="" width="40%">
+               </div>
+               <div class="col-6 col-md-3 col-xl-3 text-center my-3 hov-img-zoom">
+                  <img src="./assets/img/logo-customer/vinimex.png" alt="" width="40%">
+               </div>
             </div>
-            <div class="customer px-3">
-               <div class="customer__logo d-flex align-items-center justify-content-center">
-                  <img src="./assets/img/logo-customer/ford-phu-my.png" alt="khach-hang-cua-iotsoftvn" width="100"
-                     class="img-fluid">
-               </div>
-               <div class="customer__info text-center lh-sm">
-                  <p class="px-5">
-                     Ông Nguyễn Huỳnh An <br>
-                     <span>Giám đốc Chi nhánh Ford Phú Mỹ - Đại lý Ủy quyền Chính thức của Ford Việt Nam</span>
-                  </p>
-               </div>
-               <blockquote clas="blockquote ">
-                  <p class="text-center py-3 px-2 lh-base">"Trong quá trình hợp tác, triển khai phần mềm, 2 bên đã rất
-                     hợp
-                     tác
-                     với nhau. Về phí IOT SOFT
-                     VN, tôi đánh giá cao đội ngũ nhân sự giàu kinh nghiệm, tận tình và thân thiện."</p>
-               </blockquote>
-            </div>
+         </div>
+      </section>
+      <!-- End CUSTOMER -->
 
-            <div class="customer px-3">
-               <div class="customer__logo d-flex align-items-center justify-content-center">
-                  <img src="./assets/img/logo-customer/ats.png" alt="khach-hang-cua-iotsoftvn" width="100"
-                     class="img-fluid">
+      <!-- CUSTOMER IDEA -->
+      <section id="customer-idea" class="pt-100 pb-100">
+         <div class="container" data-aos="zoom-out">
+            <h3 class="text-center fs-2 mb-5"><strong>Ý Kiến</strong> Khách Hàng</h3>
+            <div class="slick-slider">
+               <div class="customer px-3">
+                  <div class="customer__logo d-flex align-items-center justify-content-center">
+                     <img src="./assets/img/logo-customer/taekwang.png" alt="" width="100" class="img-fluid">
+                  </div>
+                  <div class="customer__info text-center lh-sm">
+                     <p class="px-5">
+                        Ông Lương Thanh Độ <br>
+                        <span>Chủ tịch HĐQT - Công ty Cổ phần Taekwang Vina</span>
+                     </p>
+                  </div>
+                  <blockquote clas="blockquote ">
+                     <p class="text-center py-3 px-2 lh-base">"Chất lượng sản phẩm cũng như dịch vụ của các bạn luôn đáp
+                        ứng tốt các yêu cầu từ chúng tôi. Có 4 từ để tôi nhận xét về IOTSOFTVN, đó là: Uy tín, Sáng tạo,
+                        Trách Nhiệm và Nhiệt tình."</p>
+                  </blockquote>
                </div>
-               <div class="customer__info text-center lh-sm">
-                  <p class="px-5">
-                     Ông Huỳnh Thị Phương <br>
-                     <span>Phó Giám đốc Công ty CP Hệ thống Kỹ thuật Ứng Dụng</span>
-                  </p>
+               <div class="customer px-3">
+                  <div class="customer__logo d-flex align-items-center justify-content-center">
+                     <img src="./assets/img/logo-customer/ford-phu-my.png" alt="khach-hang-cua-iotsoftvn" width="100"
+                        class="img-fluid">
+                  </div>
+                  <div class="customer__info text-center lh-sm">
+                     <p class="px-5">
+                        Ông Nguyễn Huỳnh An <br>
+                        <span>Giám đốc Chi nhánh Ford Phú Mỹ - Đại lý Ủy quyền Chính thức của Ford Việt Nam</span>
+                     </p>
+                  </div>
+                  <blockquote clas="blockquote ">
+                     <p class="text-center py-3 px-2 lh-base">"Trong quá trình hợp tác, triển khai phần mềm, 2 bên đã
+                        rất
+                        hợp
+                        tác
+                        với nhau. Về phí IOT SOFT
+                        VN, tôi đánh giá cao đội ngũ nhân sự giàu kinh nghiệm, tận tình và thân thiện."</p>
+                  </blockquote>
                </div>
-               <blockquote clas="blockquote ">
-                  <p class="text-center py-3 px-2 lh-base">"Yêu cầu của chúng tôi khá đặc thù và có độ khó nhất định.
-                     Nhưng về
-                     cơ
-                     bản, tôi đánh giá phần mềm ERP của IOTSOFTVN đã được triển khai hoàn toàn đúng với yêu cầu và mục
-                     tiêu ban đầu mà 2 bên đã thỏa thuận."</p>
-               </blockquote>
-            </div>
 
-            <div class="customer px-3">
-               <div class="customer__logo d-flex align-items-center justify-content-center">
-                  <img src="./assets/img/logo-customer/casumina.png" alt="khach-hang-cua-iotsoftvn" width="100"
-                     class="img-fluid">
+               <div class="customer px-3">
+                  <div class="customer__logo d-flex align-items-center justify-content-center">
+                     <img src="./assets/img/logo-customer/ats.png" alt="khach-hang-cua-iotsoftvn" width="100"
+                        class="img-fluid">
+                  </div>
+                  <div class="customer__info text-center lh-sm">
+                     <p class="px-5">
+                        Ông Huỳnh Thị Phương <br>
+                        <span>Phó Giám đốc Công ty CP Hệ thống Kỹ thuật Ứng Dụng</span>
+                     </p>
+                  </div>
+                  <blockquote clas="blockquote ">
+                     <p class="text-center py-3 px-2 lh-base">"Yêu cầu của chúng tôi khá đặc thù và có độ khó nhất định.
+                        Nhưng về
+                        cơ
+                        bản, tôi đánh giá phần mềm ERP của IOTSOFTVN đã được triển khai hoàn toàn đúng với yêu cầu và
+                        mục
+                        tiêu ban đầu mà 2 bên đã thỏa thuận."</p>
+                  </blockquote>
                </div>
-               <div class="customer__info text-center lh-sm">
-                  <p class="px-5">
-                     Ông Lê Đức Anh <br>
-                     <span>Giám đố tài chính - Công ty cổ phần Công Nghiệp Cao Su Miền Nam</span>
-                  </p>
-               </div>
-               <blockquote clas="blockquote ">
-                  <p class="text-center py-3 px-2 lh-base">"Gửi lời cảm ơn chân thành tới đội ngũ nhân sự IOTSOFTVN đã
-                     dành nhiều tâm sức cho việc triển khai tại Casumina, giúp ích rất nhiều cho công việc tại các phòng
-                     ban."</p>
-               </blockquote>
-            </div>
 
-            <div class="customer px-3">
-               <div class="customer__logo d-flex align-items-center justify-content-center">
-                  <img src="./assets/img/logo-customer/central-park-hotel.png" alt="khach-hang-cua-iotsoftvn"
-                     width="100" class="img-fluid">
+               <div class="customer px-3">
+                  <div class="customer__logo d-flex align-items-center justify-content-center">
+                     <img src="./assets/img/logo-customer/casumina.png" alt="khach-hang-cua-iotsoftvn" width="100"
+                        class="img-fluid">
+                  </div>
+                  <div class="customer__info text-center lh-sm">
+                     <p class="px-5">
+                        Ông Lê Đức Anh <br>
+                        <span>Giám đố tài chính - Công ty cổ phần Công Nghiệp Cao Su Miền Nam</span>
+                     </p>
+                  </div>
+                  <blockquote clas="blockquote ">
+                     <p class="text-center py-3 px-2 lh-base">"Gửi lời cảm ơn chân thành tới đội ngũ nhân sự IOTSOFTVN
+                        đã
+                        dành nhiều tâm sức cho việc triển khai tại Casumina, giúp ích rất nhiều cho công việc tại các
+                        phòng
+                        ban."</p>
+                  </blockquote>
                </div>
-               <div class="customer__info text-center lh-sm">
-                  <p class="px-5">
-                     Ông Nguyễn Văn Chỉnh <br>
-                     <span>Giám đốc nhân sự - Khách sạn Central Park Hotel Biên Hòa</span>
-                  </p>
-               </div>
-               <blockquote clas="blockquote ">
-                  <p class="text-center py-3 px-2 lh-base">"Những chỉ số KPI tuyệt với, hệ thống quản trị thông minh,...
-                     Hệ thống của IOTSOFTVN sau khi được áp dụng và khai thác đã đem lại rất nhiều lợi ích cho khách
-                     sạn."</p>
-               </blockquote>
-            </div>
 
-            <div class="customer px-3">
-               <div class="customer__logo d-flex align-items-center justify-content-center">
-                  <img src="./assets/img/logo-customer/cong-ty-moi-truong-sonadezi.png" alt="khach-hang-cua-iotsoftvn"
-                     width="100" class="img-fluid">
+               <div class="customer px-3">
+                  <div class="customer__logo d-flex align-items-center justify-content-center">
+                     <img src="./assets/img/logo-customer/central-park-hotel.png" alt="khach-hang-cua-iotsoftvn"
+                        width="100" class="img-fluid">
+                  </div>
+                  <div class="customer__info text-center lh-sm">
+                     <p class="px-5">
+                        Ông Nguyễn Văn Chỉnh <br>
+                        <span>Giám đốc nhân sự - Khách sạn Central Park Hotel Biên Hòa</span>
+                     </p>
+                  </div>
+                  <blockquote clas="blockquote ">
+                     <p class="text-center py-3 px-2 lh-base">"Những chỉ số KPI tuyệt với, hệ thống quản trị thông
+                        minh,...
+                        Hệ thống của IOTSOFTVN sau khi được áp dụng và khai thác đã đem lại rất nhiều lợi ích cho khách
+                        sạn."</p>
+                  </blockquote>
                </div>
-               <div class="customer__info text-center lh-sm">
-                  <p class="px-5">
-                     Bà Phạm Xuân Hoa <br>
-                     <span>Kế toán trưởng - Công ty Cổ phần Môi trường SONADEZI </span>
-                  </p>
-               </div>
-               <blockquote clas="blockquote ">
-                  <p class="text-center py-3 px-2 lh-base">"Về phần chấm công, quản lý công nợ, phần mềm của IOTSOFTVN
-                     đáp ứng rất tốt được các yêu cầu. Ngoài ra, các bạn nhân sự tại IOTSOFTVN vẫn luôn hỗ trợ nhiệt
-                     tình trong quá trình triển khai và sử dụng phần mềm."</p>
-               </blockquote>
-            </div>
 
+               <div class="customer px-3">
+                  <div class="customer__logo d-flex align-items-center justify-content-center">
+                     <img src="./assets/img/logo-customer/cong-ty-moi-truong-sonadezi.png"
+                        alt="khach-hang-cua-iotsoftvn" width="100" class="img-fluid">
+                  </div>
+                  <div class="customer__info text-center lh-sm">
+                     <p class="px-5">
+                        Bà Phạm Xuân Hoa <br>
+                        <span>Kế toán trưởng - Công ty Cổ phần Môi trường SONADEZI </span>
+                     </p>
+                  </div>
+                  <blockquote clas="blockquote ">
+                     <p class="text-center py-3 px-2 lh-base">"Về phần chấm công, quản lý công nợ, phần mềm của
+                        IOTSOFTVN
+                        đáp ứng rất tốt được các yêu cầu. Ngoài ra, các bạn nhân sự tại IOTSOFTVN vẫn luôn hỗ trợ nhiệt
+                        tình trong quá trình triển khai và sử dụng phần mềm."</p>
+                  </blockquote>
+               </div>
+
+
+            </div>
 
          </div>
+      </section>
+      <!-- End CUSTOMER IDEA -->
+   </main>
 
-      </div>
-   </section>
-   <!-- End CUSTOMER IDEA -->
-
+   <!-- FOOTER -->
    <footer id="footer" class=" ">
       <div class="container pt-100 pb-5">
          <div class="row pb-4">
 
-            <div class="footer-image col-12 col-md-4  d-flex flex-column align-items-center justify-content-center">
-               <img class="img-fluid" src="./assets/img/logo-iotsoft-vn.png" alt="iotsoftvn">
+            <div class="footer-image col-12 col-md-3  d-flex flex-column align-items-center justify-content-center">
+               <img class="img-fluid" src="./assets/img/logo-iotsoft-vn-filter.png" alt="iotsoftvn">
                <div class="footer-social">
                   <div class="d-flex flex-wrap justify-content-center ">
 
@@ -830,8 +860,8 @@
                   </div>
                </div>
             </div>
-            <div class="footer-info mt-4 mt-md-0 col-12 col-md-8">
-               <h4 class="mb-4 fs-4 lh-base text-center">CÔNG TY TNHH GIẢI PHÁP CÔNG NGHỆ PHẦN MỀM KẾT NỐI SỐ VIỆT NAM
+            <div class="footer-info mt-4 mt-md-0 col-12 col-md-9">
+               <h4 class="mb-4 fs-5 lh-base text-center">CÔNG TY TNHH GIẢI PHÁP CÔNG NGHỆ PHẦN MỀM KẾT NỐI SỐ VIỆT NAM
                </h4>
                <hr>
                <ul class="list-unstyled">
@@ -863,6 +893,7 @@
             href="https://www.iotsoftvn.com/">www.iotsoftvn.com</a>
       </div>
    </footer>
+   <!-- End FOOTER -->
    <!-- Js -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

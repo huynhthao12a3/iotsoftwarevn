@@ -1,6 +1,7 @@
 :root{
    --primary-color: #FED152;
    --foreign-color: #FFA506;
+   --header-height: 100px;
 }
 
 .pt-100{
@@ -17,7 +18,7 @@
 }
 
 body{
-   font-family: 'Roboto', sans-serif;
+   font-family: 'Open Sans', sans-serif;
    font-size: 18px;
    color: #000;
    overflow: hidden;
@@ -84,3 +85,120 @@ html {
    font-family: 'Roboto Mono', 'Roboto';
    font-size: 36px;
 } */
+
+/* ===== LOADING ===== */
+#loading {
+   width: 100%;
+   height: 100vh;
+   z-index: 9999;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #fff;
+}
+.loading-logo {
+   position: absolute;
+   
+}
+
+/* ========== HEADER ========== */
+header {
+   height: 100px;
+   width: 100vw;
+   background-color: #fff;
+   z-index: 1000;
+}
+
+
+#nav-icon{
+   color: var(--primary-color);
+}
+
+.nav-icon-wrap {
+   border: 2px solid var(--primary-color);
+}
+
+#navbar-icon--close {
+   display: none;
+}
+.nav-item-link{
+   color: #000;
+}
+
+.nav-item-link:hover {
+   border-bottom: 2px solid var(--foreign-color);
+   color:  var(--primary-color);
+}
+
+.phone-number a {
+   color: var(--foreign-color);
+}
+
+@keyframes navbarIsOpen {
+   from {
+      transform: translateX(100%);
+
+
+   }
+   to {
+      transform: translateX(0);
+
+   }
+}
+
+@keyframes navbarIsClose {
+   from {
+      transform: translateX(0);
+
+
+   }
+   to {
+      transform: translateX(100%);
+
+   }
+}
+
+/* End HEADER */
+
+
+/* ===== Footer ===== */
+#footer {
+   background-color: #222222;
+}
+.footer-social *{
+   color: #fff;
+}
+.footer-social-item{
+   background-color: #545454;
+   width: 50px;
+   height: 50px;
+}
+
+.footer-info *,
+.footer-subscribe *{
+   color: #d7d7d9;
+}
+.footer-info li p{
+   font-weight: 300;
+   line-height: 20px;
+}
+
+
+.footer-info h4{
+}
+.footer-info li i {
+   width: 20px;
+   height: 20px;
+}
+.footer-hr {
+   color: #535353;
+}
+
+.footer-copy-right {
+   background-color: #111111;
+}
+.footer-copy-right a,
+.footer-copy-right a:hover{
+   color: var(--primary-color);
+}
+/* End FOOTER */

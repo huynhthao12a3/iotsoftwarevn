@@ -1,6 +1,6 @@
 // ===== Loading website
 const preLoading = document.getElementById('loading');
-setTimeout(loadingFunc, 500);
+setTimeout(loadingFunc, 1000);
 function loadingFunc() {
    preLoading.style.display = 'none';
 }
@@ -14,7 +14,7 @@ var carousel = new bootstrap.Carousel(myCarousel, {
 // ===== Aos Library
 AOS.init({
    once: false,
-   duration: 1200,
+   duration: 1000,
    anchorPlacement: 'bottom',
 });
 
@@ -124,3 +124,10 @@ $(document).ready(function(){
       ]
    })
 })
+
+// ----- Project counting
+
+$('.project-counting').countUp({
+   delay: 10,
+   time:  1500,       
+});
