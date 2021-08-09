@@ -181,6 +181,15 @@
 /* End INTRODUCE*/
 
 /* ===== INFO ===== */
+.about-page-info h1{
+   font-weight: 600;
+}
+.about-img {
+   background-color: var(--foreign-color);
+}
+.about-img img {
+   border: 1px solid #fff;
+}
 .about-page-info p{
    text-align: justify;
 }

@@ -1,6 +1,6 @@
 // ===== Loading website
 const preLoading = document.getElementById('loading');
-setTimeout(loadingFunc, 1000);
+setTimeout(loadingFunc, 800);
 function loadingFunc() {
    preLoading.style.display = 'none';
 }
