@@ -18,11 +18,9 @@
 
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
    <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
       rel="stylesheet">
-
    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
@@ -42,7 +40,6 @@
    <div id="loading" class="position-fixed top-0 bottom-0 start-0 end-0">
       <img src="./assets/img/loading.gif" alt="loading-gif">
       <img class="loading-logo" src="./assets/img/nav-mobile-logo.jpg" alt="">
-
    </div>
    <!-- End loading -->
 
@@ -51,7 +48,7 @@
       <div class="container h-100">
          <div class="row h-100 align-items-center justify-content-between">
 
-            <div class="col-10 col-md-4 col-xl-3 d-flex align-items-md-center justify-content-md-center ">
+            <div class="col-8 col-md-4 col-xl-3 d-flex align-items-md-center justify-content-md-center ">
                <a href="./index.html">
                   <img class="header-logo img-fluid" src="./assets/img/logo-iotsoft-vn.png"
                      alt="IOT Software VN - Công ty thiết kế phần mềm,website chuyên nghiệp">
@@ -59,14 +56,14 @@
 
             </div>
 
-            <div id="nav-icon" class="col-2  p-2 text-center d-lg-none">
-               <div class="nav-icon-wrap py-2">
+            <div id="nav-icon" class="col-2   text-center d-lg-none">
+               <div class="nav-icon-wrap d-flex justify-content-center align-items-center p-2">
                   <i id="navbar-icon--open" class="fas fa-bars fs-1 "></i>
                   <i id="navbar-icon--close" class="fas fa-times fs-1 "></i>
                </div>
             </div>
 
-            <nav id="navbar" class="col-0 col-lg-8 col-xl-7 text-center pt-5 pt-lg-0 px-0 ">
+            <nav id="navbar" class="col-0 col-lg-8 col-xl-7 text-center  pt-lg-0 px-0 ">
                <ul class="nav-list list-unstyled ">
                   <li class="nav-item  d-block d-lg-inline-block">
                      <a href="./index.html"
@@ -94,7 +91,7 @@
                         Hệ</a>
                   </li>
                </ul>
-               <div class="nav-info-mobile d-block d-lg-none pt-100">
+               <div class="nav-info-mobile d-block d-lg-none pt-5">
                   <p class="fs-1 mb-2">IOTSOFTVN</p>
                   <p class="fs-2">Công ty thiết kế phần mềm</p>
                </div>
@@ -109,19 +106,27 @@
    </header>
    <!-- End Header -->
 
-   <main id="about-page">
+   <main id="about-page" class="mt-100">
       <!-- Intro -->
-      <section id="introduce" class="mt-100 position-relative">
-         <!-- <div class="container">
-            <h1 class="introduce-title position-absolute text-center fs-1">GIỚI THIỆU VỀ IOT SOFTWARE VN</h1>
-         </div> -->
+      <section id="intro">
+         <div id="carouselExample" class="carousel slide pointer-event" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img src="./assets/img/about-page/introduce-iotsoftvn.jpg" class="carousel-img d-block vw-100  "
+                     alt="he-thong-erp">
+               </div>
+            </div>
+
+         </div>
       </section>
+
       <!-- End Intro -->
 
       <!-- INFO -->
-      <section id="about-page-info-1" class="mb-5">
+      <section class="about-page-info mb-5">
          <div class="container">
-            <p class="about-title fs-4 fw-bold p-3 my-4">Giới thiệu chung về IOT SOFTWARE VN</p>
+            <p class="about-title shadow-sm fs-4 fw-bold p-3 my-4">Giới thiệu chung về IOT SOFTWARE VN</p>
             <h1 class="lh-base mb-4 fs-5">IOT Software VN được thành lập từ năm 2012 và đã có nhiều kinh nghiệm từ những
                năm
                trước đó.</h1>
@@ -138,44 +143,12 @@
                quả điều hành, quản trị cho các tổ chức, doanh nghiệp.</p>
 
 
-            <!-- <div class="row mt-3">
-               <div class="col-12 col-lg-6 mt-2">
-                  <img src="./assets/img/about-page/scrum.jpg" alt="" class="img-fluid">
-               </div>
-               <div class="col-12 col-lg-6 mt-2">
-                  <p class="lh-base fs-5">Được thành lập bởi các chuyên gia với nhiều năm kinh nghiệm đáp ứng nhu cầu về
-                     lĩnh
-                     vực CNTT, IoT, AI, Computer Vision, Big Data, APP...</p>
-                  <ul class="page-info-list lh-base list-unstyled ">
-                     <li class="page-info-item lh-base fs-5 mt-2"><i class="fas fa-square me-3"></i>Thế mạnh của chúng
-                        tôi:
-                        APP -
-                        WEB -
-                        IOT - ERP -
-                        E-COMMERCE.</li>
-                     <li class="page-info-item lh-base fs-5 mt-2"><i class="fas fa-square me-3"></i>Chúng tôi ứng dụng
-                        Agile/Scrum
-                        trong quá trình
-                        phát triển ứng dụng.</li>
-                     <li class="page-info-item lh-base fs-5 mt-2"><i class="fas fa-square me-3"></i>Công nghệ của chúng
-                        tôi
-                        sẽ
-                        giúp
-                        khách hàng tối ưu
-                        hóa lợi nhuận trong kinh
-                        doanh.
-                     </li>
-                  </ul>
-               </div>
-
-            </div> -->
-
          </div>
       </section>
 
-      <section id="about-page-info-2" class="mb-5">
+      <section class="about-page-info mb-5">
          <div class="container">
-            <p class="about-title fs-4 fw-bold p-3 my-4">Quan điểm của IOT SOFTWARE VN</p>
+            <p class="about-title shadow-sm fs-4 fw-bold p-3 my-4">Quan điểm của IOT SOFTWARE VN</p>
             <p class="about-title-sm lh-base mb-4 fs-5">Thước đo chất lượng</p>
             <p class="lh-base mb-4 fs-6 ">Khách hàng là người đánh giá trung thực và khách quan nhất về các sản phẩm
                phần mềm. Do vậy việc thỏa mãn một cách tốt nhất các nhu cầu về phần mềm để phục vụ sản xuất kinh doanh
@@ -200,9 +173,9 @@
          </div>
       </section>
 
-      <section id="about-page-info-3" class="mb-5">
+      <section class="about-page-info mb-5">
          <div class="container">
-            <p class="about-title fs-4 fw-bold p-3 my-4">Tầm nhìn</p>
+            <p class="about-title shadow-sm fs-4 fw-bold p-3 my-4">Tầm nhìn</p>
             <p class="lh-base mb-4 fs-6 ">Trở thành đối tác trong việc tư vấn, phát triển và duy trì các hệ thống CÔNG
                NGHỆ.</p>
             <p class="lh-base mb-4 fs-6 ">Đạt được sự tín nhiệm của khách hàng chính là nhân tố quan trọng góp phần vào
@@ -214,9 +187,9 @@
          </div>
       </section>
 
-      <section id="about-page-info-4" class="mb-5">
+      <section class="about-page-info mb-5">
          <div class="container">
-            <p class="about-title fs-4 fw-bold p-3 my-4">Sứ mệnh</p>
+            <p class="about-title shadow-sm fs-4 fw-bold p-3 my-4">Sứ mệnh</p>
             <p class="lh-base mb-4 fs-6 ">Công nghệ của chúng tôi sẽ giúp khách hàng tối ưu hóa lợi nhuận trong kinh
                doanh.</p>
             <p class="lh-base mb-4 fs-6 ">Cung cấp đến khách hàng dịch vụ CNTT chính hãng và đội ngũ triển khai chuyên

@@ -92,7 +92,7 @@
    height: 100px;
 }
 .customer__info {
-   height: 60px;
+   min-height: 60px;
 }
 .customer__info span {
    font-size: 12px;
@@ -170,13 +170,7 @@
 
 /* ========================== ABOUT PAGE ========================== */
 /* ===== INTRODUCE ===== */
-#introduce{
-   height: 30vh;
-   background-image: url(../img/about-page/introduce-iotsoftvn.jpg);
-   background-size: contain;
-   background-repeat: repeat-x;
-   background-position:center center;
-}
+
 /* .introduce-title {
    top: 50%;
    left: 50%;
@@ -187,9 +181,7 @@
 /* End INTRODUCE*/
 
 /* ===== INFO ===== */
-#about-page-info-1 p,
-#about-page-info-2 p,
-#about-page-info-3 p {
+.about-page-info p{
    text-align: justify;
 }
 .about-title {

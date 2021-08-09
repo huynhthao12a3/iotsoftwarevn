@@ -20,7 +20,7 @@
       height: 100vh;
       position: fixed;
       top: 100px;left: 0;right:0;
-      z-index: 10 !important;
+      z-index: 1000 !important;
    }
    .nav-item:nth-child(1),
    .nav-item:nth-child(3),
