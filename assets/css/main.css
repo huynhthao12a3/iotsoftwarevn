@@ -272,8 +272,29 @@
    background-color: #E0C045;
 }
 /* End ABOUT LEADER */
-
-
 /* ================ End ABOUT PAGE ================ */
 
+/* ================ SERVICE PAGE ================ */
+
+#service-page-title h1{
+   color: #434099;
+}
+#service-page-title h2{
+   color: var(--foreign-color);
+}
+#service-page-title p {
+   text-align: justify;
+}
+/*  */
+
+#service-page-webapp {
+   background-color: #f0f1f2;
+}
+.webapp__title {
+   color: var(--foreign-color);
+}
+.webapp__desc h3 {
+   font-weight: 600;
+}
+/* ================ End SERVICE PAGE ================ */
 

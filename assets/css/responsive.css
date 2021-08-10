@@ -3,6 +3,12 @@
       width: 100%;
       
    }
+   .webapp__img {
+      order: 1;
+   }
+   .webapp__desc {
+      order: 2;
+   }
 }
 
 @media (max-width: 991px){

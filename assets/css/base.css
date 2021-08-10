@@ -1,6 +1,6 @@
 :root{
    --primary-color: #FED152;
-   --foreign-color: #FFA506;
+   --foreign-color: #ff8a00;
    --header-height: 100px;
 }
 
@@ -123,11 +123,28 @@ header {
 }
 .nav-item-link{
    color: #000;
+   position: relative;
 }
 
-.nav-item-link:hover {
-   border-bottom: 2px solid var(--foreign-color);
-   color:  var(--primary-color);
+.nav-item-link::before {
+   content: "";
+   display: block;
+   position: absolute;
+   bottom: -2px;
+   left: 0;
+   height: 2px;
+   width: 100%;
+   background-color: var(--foreign-color);
+   transform-origin: right top;
+   transform: scale(0, 1);
+   transition: color 0.5s, transform 0.3s ease-out;
+}
+
+.nav-item-link:hover,
+.nav-item-link:hover::before{
+   transform-origin: left top;
+   transform: scale(1, 1);
+   color: var(--primary-color);
 }
 
 .phone-number a {
