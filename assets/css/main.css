@@ -287,14 +287,20 @@
 }
 /*  */
 
-#service-page-webapp {
-   background-color: #f0f1f2;
+#service-page-webapp,
+#service-page-appmobile {
+   background-color: #f0f5fc;
 }
+
 .webapp__title {
    color: var(--foreign-color);
 }
 .webapp__desc h3 {
    font-weight: 600;
+}
+#wave-bg {
+   background-image: url(../img/service-page/wavebg.jpg);
+   height: 59px;
 }
 /* ================ End SERVICE PAGE ================ */
 

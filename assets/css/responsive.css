@@ -45,6 +45,12 @@
 
 }
 
+@media (min-width: 992px) {
+   .webapp__title {
+      font-size: 52px !important;
+   }
+}
+
 @media (min-width: 1200px) {
    .nav-item-link{
       padding-bottom: 12px !important;
