@@ -295,12 +295,51 @@
    background-color: #f0f5fc;
 }
 
-.webapp__title {
+.service-title {
    color: var(--foreign-color);
 }
 .webapp__desc h3 {
    font-weight: 600;
 }
+/*  */
+#service-page-exp {
+   background-image: url(../img/service-page/wavebg1.png);
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+}
 
+
+.service-title-md span {
+   color: #0D6EFD;
+}
+.exp-wrap__item {
+   border-radius: 32px;
+   background-color: rgba(240, 245, 252,0.8);
+}
+.exp-wrap__item-desc {
+   color: #0D6EFD;
+}
+/*  */
+#service-page-procedure {
+   background-color: #FEFEFE;
+}
+
+/*  */
+.app-left{
+   border-right: 1px solid #006EF7;
+}
+.app-right{
+   border-left: 1px solid #006EF7;
+}
+.app-item img{
+   
+   max-width: 90px;
+   max-height: 90px;
+}
+/*  */
+#service-page-app{
+   background-color: #006EF7;
+}
 /* ================ End SERVICE PAGE ================ */
 

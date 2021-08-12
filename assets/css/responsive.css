@@ -11,6 +11,12 @@
    }
 }
 
+@media (min-width: 768px){
+   .service-title-md {
+      width: 70%;
+   }
+}
+
 @media (max-width: 991px){
    .service-web-img,
    .service-ecommerce-img{
