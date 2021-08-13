@@ -31,6 +31,15 @@ html {
 .rtl {
    direction: rtl;
 }
+.text-justify {
+   text-align: justify;
+}
+.fw-600{
+   font-weight: 600;
+}
+.f-color {
+   color: var(--foreign-color);
+}
 /*[ Hover img zoom]
 -----------------------------------------------------------
 */
