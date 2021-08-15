@@ -440,3 +440,15 @@
    background-color: #D7DEE4;
 }
 /* ================ End NEWS PAGE ================ */
+
+/* ================ CONTACT PAGE ================ */
+.info__item {
+   border: 2px solid #ccc;
+}
+#about-page-map {
+   background-image: url(../img/background.png);
+}
+.map {
+   min-height: 500px;
+}
+/* ================ End CONTACT PAGE ================ */
