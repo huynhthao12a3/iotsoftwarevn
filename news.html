@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="keywords"
+      content="iot software, iotsoftvn, công ty thiết kế phần mềm, triển khai hệ thống máy chủ, xây dựng hệ thống smart home">
+   <meta name="description"
+      content="IOT Software là công ty chuyên thiết kế phần mềm, website. Triển khai hệ thống máy chủ, hệ thống quản lý. Xây dựng các hệ thống smart home, smart device.">
+   <meta name="search engines"
+      content="www.google.com, www.google.com.vn, www.yahoo.com, www.msn.com, www.alltheweb.com, www.alexa.com, www.altaVista.com, www.aol.com, www.infoseek.com, www.excite.com, www.hotbot.com, www.lycos.com, www.magellan.com, www.looksmart.com, www.cnet.com, www.voila.com, www.netscape.com, www.nomade.com">
+
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>IOT Software VN - Công ty thiết kế phần mềm,website chuyên nghiệp</title>
+
+   <link rel="icon" type="image/png" href="./assets/img/small-logo.png">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+      rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+   <link rel="stylesheet" type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+   <link rel="stylesheet" href="./vendors/aos-library/aos.css">
+   <link rel="stylesheet" href="./assets/fontawesome-free-5.15.3-web/css/all.min.css">
+   <link rel="stylesheet" href="./vendors/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="./assets/css/reset.css">
+   <link rel="stylesheet" href="./assets/css/base.css">
+   <link rel="stylesheet" href="./assets/css/main.css">
+   <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+   <!-- Loading -->
+   <div id="loading" class="position-fixed top-0 bottom-0 start-0 end-0">
+      <img src="./assets/img/loading.gif" alt="loading-gif">
+      <img class="loading-logo" src="./assets/img/nav-mobile-logo.jpg" alt="">
+   </div>
+   <!-- End loading -->
+
+   <!-- Header -->
+   <header class="shadow position-fixed top-0 start-0 end-0">
+      <div class="container h-100">
+         <div class="row h-100 align-items-center justify-content-between">
+
+            <div class="col-6 col-md-4 col-xl-3 d-flex align-items-md-center justify-content-md-center ">
+               <a href="./index.html">
+                  <img class="header-logo img-fluid" src="./assets/img/logo-iotsoft-vn.png"
+                     alt="IOT Software VN - Công ty thiết kế phần mềm,website chuyên nghiệp">
+               </a>
+
+            </div>
+
+            <div id="nav-icon" class="col-2   text-center d-lg-none">
+               <div class="nav-icon-wrap d-flex justify-content-center align-items-center p-2">
+                  <i id="navbar-icon--open" class="fas fa-bars fs-1 "></i>
+                  <i id="navbar-icon--close" class="fas fa-times fs-1 "></i>
+               </div>
+            </div>
+
+            <nav id="navbar" class="col-0 col-lg-8 col-xl-7 text-center  pt-lg-0 px-0 ">
+               <ul class="nav-list list-unstyled ">
+                  <li class="nav-item  d-block d-lg-inline-block">
+                     <a href="./index.html"
+                        class="nav-item-link nav-item-link--active d-block rounded text-decoration-none text-uppercase p-4 p-lg-3 ">Trang
+                        Chủ</a>
+                  </li>
+                  <li class="nav-item  d-block d-lg-inline-block">
+                     <a href="./about.html"
+                        class="nav-item-link d-block rounded text-decoration-none text-uppercase p-4 p-lg-3 ">Giới
+                        Thiệu</a>
+                  </li>
+                  <li class="nav-item  d-block d-lg-inline-block">
+                     <a href="./service.html"
+                        class="nav-item-link d-block rounded text-decoration-none text-uppercase p-4 p-lg-3 ">Dịch
+                        Vụ</a>
+                  </li>
+                  <li class="nav-item  d-block d-lg-inline-block">
+                     <a href="./news.html"
+                        class="nav-item-link d-block rounded text-decoration-none text-uppercase p-4 p-lg-3 ">Tin
+                        Tức</a>
+                  </li>
+                  <li class="nav-item  d-block d-lg-inline-block">
+                     <a href="./contact.html"
+                        class="nav-item-link d-block rounded text-decoration-none text-uppercase p-4 p-lg-3 ">Liên
+                        Hệ</a>
+                  </li>
+               </ul>
+               <div class="nav-info-mobile d-block d-lg-none pt-5">
+                  <p class="fs-1 mb-2">IOTSOFTVN</p>
+                  <p class="fs-2">Công ty thiết kế phần mềm</p>
+               </div>
+            </nav>
+
+            <div class="col-xl-2 d-none d-xl-block phone-number">
+               <p class="text-end fw-light pb-2">Liên hệ ngay</p>
+               <a class="text-decoration-none d-flex justify-content-end" href="tel:0978938760"> 097 893
+                  87 60</a>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- End Header -->
+
+   <main id="news-page" class="mt-100">
+      <!-- Intro -->
+      <section id="intro">
+         <div id="carouselExample" class="carousel slide pointer-event" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img src="./assets/img/news-page/news-intro.jpg" class="carousel-img d-block vw-100  "
+                     alt="Tin tức công nghệ">
+               </div>
+            </div>
+
+         </div>
+      </section>
+      <!-- End Intro -->
+      <section id="news-post" class="pt-100 pb-100">
+         <div class="container">
+            <div class="row">
+
+               <div class="post col-12 col-md-6 col-lg-4">
+                  <div class="post-item position-relative rounded">
+                     <aside class="post-item__head hov-img-zoom position-relative">
+                        <img class="img-fluid" src="./assets/img/news-page/odoo_logo.webp" alt="inventory-odoo-erp">
+                        <span class="position-absolute px-2 py-1 rounded">07<br>09</span>
+                     </aside>
+                     <aside class="post-item__body  h-100 p-3">
+                        <h4 class="mb-3">
+                           <a class="text-decoration-none fw-600 lh-base " href="#">Inventory Odoo Erp - Module quản lý
+                              kho hàng</a>
+                        </h4>
+
+                        <div class="post-item__body-desc h-100  pt-3">
+                           <p class="lh-base fs-6">Odoo ERP với module Inventory được nhiều doanh nghiệp tin tưởng sử
+                              dụng
+                              nhờ
+                              những tính
+                              năng
+                              nổi bật và hữu dụng cũng như chi phí triển khai hợp lý,...</p>
+                           <a class="position-absolute" href="#"><i class="far fa-caret-square-right fs-4"></i></a>
+                        </div>
+                     </aside>
+                  </div>
+               </div>
+
+               <div class="post col-12 col-md-6 col-lg-4">
+                  <div class="post-item position-relative rounded">
+                     <aside class="post-item__head hov-img-zoom position-relative">
+                        <img class="img-fluid" src="./assets/img/news-page/warehouse-management-solution.webp"
+                           alt="rfid-trong-quan-ly-kho">
+                        <span class="position-absolute px-2 py-1 rounded">25<br>08</span>
+                     </aside>
+                     <aside class="post-item__body  h-100 p-3">
+                        <h4 class="mb-3">
+                           <a class="text-decoration-none fw-600 lh-base " href="#">RFID trong quản lý kho</a>
+                        </h4>
+
+                        <div class="post-item__body-desc h-100  pt-3">
+                           <p class="lh-base fs-6">Chắc chắn mọi người đã quen với khái niệm barcode (mã vạch - chứa
+                              thông
+                              tin cơ
+                              bản về sp). Barcode được ứng dụng rộng rãi trong quản lý kho, siêu thị, bệnh viện...Tuy
+                              nhiên, barcode có một nhược điểm là mỗi lần chỉ scan được 1 nhãn thôi...</p>
+                           <a class="position-absolute" href="#"><i class="far fa-caret-square-right fs-4"></i></a>
+                        </div>
+                     </aside>
+                  </div>
+               </div>
+
+               <div class="post col-12 col-md-6 col-lg-4">
+                  <div class="post-item position-relative rounded">
+                     <aside class="post-item__head hov-img-zoom position-relative">
+                        <img class="img-fluid" src="./assets/img/news-page/cong-nghe-rfid-la-gi-1.webp"
+                           alt="cong-nghe-rfid-là-gi">
+                        <span class="position-absolute px-2 py-1 rounded">25<br>08</span>
+                     </aside>
+                     <aside class="post-item__body  h-100 p-3">
+                        <h4 class="mb-3">
+                           <a class="text-decoration-none fw-600 lh-base " href="#">Khái quát về công nghệ RFID</a>
+                        </h4>
+
+                        <div class="post-item__body-desc h-100  pt-3">
+                           <p class="lh-base fs-6">RFID (viết tắt thuật ngữ tiếng Anh: Radio Frequency Identification),
+                              hay
+                              Nhận
+                              dạng qua tần số vô tuyến, là một công nghệ dùng kết nối sóng vô tuyến để tự động xác định
+                              và theo dõi các thẻ nhận dạng gắn vào vật thể.</p>
+                           <a class="position-absolute" href="#"><i class="far fa-caret-square-right fs-4"></i></a>
+                        </div>
+                     </aside>
+                  </div>
+               </div>
+
+               <div class="post col-12 col-md-6 col-lg-4">
+                  <div class="post-item position-relative rounded">
+                     <aside class="post-item__head hov-img-zoom position-relative">
+                        <img class="img-fluid"
+                           src="./assets/img/news-page/hoat-dong-tren-di-dong-do-tro-li-ao-thuc-hien.webp"
+                           alt="tro-li-ao">
+                        <span class="position-absolute px-2 py-1 rounded">16<br>06</span>
+                     </aside>
+                     <aside class="post-item__body  h-100 p-3">
+                        <h4 class="mb-3">
+                           <a class="text-decoration-none fw-600 lh-base " href="#">40% hoạt động trên di động sẽ do trợ
+                              lý ảo thực
+                              hiện</a>
+                        </h4>
+
+                        <div class="post-item__body-desc h-100  pt-3">
+                           <p class="lh-base fs-6">Sáng nay 15/06 Vietnam Mobile Day 2018 (VMD18) đã chính thức diễn ra
+                              tại
+                              TTHN
+                              FOREVERMAR – Hà Nội, thu hút hơn 4,000 lượt người tham dự</p>
+                           <a class="position-absolute" href="#"><i class="far fa-caret-square-right fs-4"></i></a>
+                        </div>
+                     </aside>
+                  </div>
+               </div>
+
+               <div class="post col-12 col-md-6 col-lg-4">
+                  <div class="post-item position-relative rounded">
+                     <aside class="post-item__head hov-img-zoom position-relative">
+                        <img class="img-fluid" src="./assets/img/news-page/keyword-rank-checker.webp"
+                           alt="check-rank-google">
+                        <span class="position-absolute px-2 py-1 rounded">14<br>06</span>
+                     </aside>
+                     <aside class="post-item__body  h-100 p-3">
+                        <h4 class="mb-3">
+                           <a class="text-decoration-none fw-600 lh-base " href="#">6 cách kiểm tra thứ hạng Website đơn
+                              giản</a>
+                        </h4>
+
+                        <div class="post-item__body-desc h-100  pt-3">
+                           <p class="lh-base fs-6">Google Analytics là gì? Cách sử dụng Google Analytics cho người mới
+                              bắt
+                              đầu
+                              Kiểm tra thứ hạng website trên Google là cách để bạn biết được vị trí của mình.</p>
+                           <a class="position-absolute" href="#"><i class="far fa-caret-square-right fs-4"></i></a>
+                        </div>
+                     </aside>
+                  </div>
+               </div>
+
+               <div class="post col-12 col-md-6 col-lg-4">
+                  <div class="post-item position-relative rounded">
+                     <aside class="post-item__head hov-img-zoom position-relative">
+                        <img class="img-fluid" src="./assets/img/news-page/microsoft-mua-lai-github.webp"
+                           alt="microsoft-mua-lai-github">
+                        <span class="position-absolute px-2 py-1 rounded">13<br>06</span>
+                     </aside>
+                     <aside class="post-item__body  h-100 p-3">
+                        <h4 class="mb-3">
+                           <a class="text-decoration-none fw-600 lh-base " href="#">Github chính thức bị mua lại với giá
+                              $7.5
+                              billion</a>
+                        </h4>
+
+                        <div class="post-item__body-desc h-100  pt-3">
+                           <p class="lh-base fs-6">Microsoft đã mua lại GitHub. Sau chỉ vài ngày tin đồn rộ lên rằng gã
+                              khổng
+                              lồ
+                              phần mềm đã đàm phán để có được GitHub, Microsoft công bố thương vụ sẽ chính thức diễn ra
+                              vào ngày hôm nay.</p>
+                           <a class="position-absolute" href="#"><i class="far fa-caret-square-right fs-4"></i></a>
+                        </div>
+                     </aside>
+                  </div>
+               </div>
+
+               <div class="post col-12 col-md-6 col-lg-4">
+                  <div class="post-item position-relative rounded">
+                     <aside class="post-item__head hov-img-zoom position-relative">
+                        <img class="img-fluid" src="./assets/img/news-page/chatbot-trong-kinh-doanh.webp"
+                           alt="chatbot-trong-kinh-doanh">
+                        <span class="position-absolute px-2 py-1 rounded">08<br>05</span>
+                     </aside>
+                     <aside class="post-item__body  h-100 p-3">
+                        <h4 class="mb-3">
+                           <a class="text-decoration-none fw-600 lh-base " href="#">Chatbot là gì ? Ứng dụng của Chatbot
+                              trong kinh
+                              doanh</a>
+                        </h4>
+
+                        <div class="post-item__body-desc h-100  pt-3">
+                           <p class="lh-base fs-6">Hoạt động kinh doanh hiệu quả, hỗ trợ khách hàng toàn diện
+                              và
+                              chuyên nghiệp mọi lúc là vấn đề mà các doanh nghiệp hết sức lưu tâm. Và việc
+                              sử dụng Chatbot trở thành một lựa chọn lý tưởng,...</p>
+                           <a class="position-absolute" href="#"><i class="far fa-caret-square-right fs-4"></i></a>
+                        </div>
+                     </aside>
+                  </div>
+               </div>
+
+               <div class="post col-12 col-md-6 col-lg-4">
+                  <div class="post-item position-relative rounded">
+                     <aside class="post-item__head hov-img-zoom position-relative">
+                        <img class="img-fluid" src="./assets/img/news-page/seo-la-gi.webp"
+                           alt="thiet-ke-website-chuan-seo">
+                        <span class="position-absolute px-2 py-1 rounded">01<br>05</span>
+                     </aside>
+                     <aside class="post-item__body  h-100 p-3">
+                        <h4 class="mb-3">
+                           <a class="text-decoration-none fw-600 lh-base " href="#">Thiết kế Website chuẩn SEO là gì ?
+                              Chuẩn SEO là gì
+                              ?</a>
+                        </h4>
+
+                        <div class="post-item__body-desc h-100  pt-3">
+                           <p class="lh-base fs-6">Web chuẩn SEO là trang web được thiết kế có cấu hình và tính năng cho
+                              phép
+                              các
+                              công cụ tìm kiếm như Google, Yahoo, Bing… dễ dàng thu thập dữ liệu và hiểu được toàn bộ
+                              website.</p>
+                           <a class="position-absolute" href="#"><i class="far fa-caret-square-right fs-4"></i></a>
+                        </div>
+                     </aside>
+                  </div>
+               </div>
+
+               <div class="post col-12 col-md-6 col-lg-4">
+                  <div class="post-item position-relative rounded">
+                     <aside class="post-item__head hov-img-zoom position-relative">
+                        <img class="img-fluid" src="./assets/img/news-page/website-responsive.webp"
+                           alt="thiet-ke-website-responsive">
+                        <span class="position-absolute px-2 py-1 rounded">24<br>04</span>
+                     </aside>
+                     <aside class="post-item__body  h-100 p-3">
+                        <h4 class="mb-3">
+                           <a class="text-decoration-none fw-600 lh-base " href="#">Thiết kế Website Responsive - Xu
+                              hướng website tiện
+                              ích</a>
+                        </h4>
+
+                        <div class="post-item__body-desc h-100  pt-3">
+                           <p class="lh-base fs-6">“Responsive Web Design” đây có thể nói là khái niệm rất hot và đang
+                              phát
+                              triển
+                              rất mạnh mẽ hiện nay, hiển nhiên Responsive Web Design là một công nghệ web mới và đang là
+                              1 trong những xu hướng web hiện nay,...</p>
+                           <a class="position-absolute" href="#"><i class="far fa-caret-square-right fs-4"></i></a>
+                        </div>
+                     </aside>
+                  </div>
+               </div>
+
+
+
+            </div>
+
+            <ul class="pagination justify-content-center mt-5">
+               <li class="pagination-item px-1">
+                  <a href="#" class="pagination-link d-block text-decoration-none text-center "><i
+                        class="fas fa-arrow-left"></i></a>
+               </li>
+               <li class="pagination-item px-1">
+                  <a href="./news.html"
+                     class="pagination-link d-block text-decoration-none text-center pagination-item--active ">1</a>
+               </li>
+               <li class="pagination-item px-1">
+                  <a href="#" class="pagination-link d-block text-decoration-none text-center">2</a>
+               </li>
+               <li class="pagination-item px-1">
+                  <a href="#" class="pagination-link d-block text-decoration-none text-center">3</a>
+               </li>
+               <li class="pagination-item px-1">
+                  <a href="#" class="pagination-link d-block text-decoration-none text-center"><i
+                        class="fas fa-arrow-right"></i></a>
+               </li>
+            </ul>
+
+         </div>
+      </section>
+
+      <!-- SERVICE -->
+      <section id="service" class="pt-100 pb-100">
+         <div class="container py-5" data-aos="zoom-out">
+            <div class="row">
+               <div class="col-12 col-md-8 col-xl-9">
+                  <p class="text-light fs-4 fw-bold pb-4 lh-sm">IOT Software VN có thể giúp gì cho bạn ?</p>
+                  <p class="text-light fs-5 fst-italic lh-base">Chúng tôi cung cấp những giải pháp công nghệ thông tin
+                     (CNTT) tốt
+                     nhất
+                     cho
+                     doanh
+                     nghiệp
+                     của bạn.</p>
+               </div>
+               <div class="col-12 col-md-4 col-xl-3 d-flex align-items-center justify-content-center pt-4 pt-md-0">
+                  <a class="service-link text-center py-3 px-md-5 fs-4 text-decoration-none text-dark" href="#">Liên
+                     Hệ
+                  </a>
+
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End SERVICE -->
+
+      <section id="service-page-result" class="pt-100 pb-100">
+         <div class="container">
+            <h5 class=" fw-bold text-center lh-base fs-2">Thành Tựu Của 9 Năm Phục Vụ Khách Hàng</h5>
+            <div class="row ">
+               <div class=" col-12 col-md-4 mt-5 text-center">
+                  <div class="fs-2">
+                     <i class="text-secondary fas fa-laptop-code "></i>
+                     <i class="text-secondary fas fa-laptop-code "></i>
+                     <i class="text-secondary fas fa-laptop-code "></i>
+                     <i class="text-secondary fas fa-mobile-alt "></i>
+                     <i class="text-secondary fas fa-mobile-alt "></i>
+                  </div>
+                  <span class="fs-1 fw-600 d-block my-3 ">550+</span>
+                  <h6 class="fw-600">Hệ thống đã xây dựng</h6>
+               </div>
+
+               <div class=" col-12 col-md-4 mt-5 text-center">
+                  <div class="fs-2">
+                     <i class="text-secondary fas fa-pager"></i>
+                     <i class="text-secondary fas fa-pager"></i>
+                     <i class="text-secondary fas fa-pager"></i>
+                     <i class="text-secondary fas fa-pager"></i>
+                     <i class="text-secondary fas fa-pager"></i>
+                  </div>
+                  <span class="fs-1 fw-600 d-block my-3 ">100+</span>
+                  <h6 class="fw-600">Website đã hoàn thành</h6>
+               </div>
+
+               <div class=" col-12 col-md-4 mt-5 text-center">
+                  <div class="fs-2">
+                     <i class="text-secondary fas fa-user-tie"></i>
+                     <i class="text-secondary fas fa-user-tie"></i>
+                     <i class="text-secondary fas fa-user-tie"></i>
+                     <i class="text-secondary fas fa-user-tie"></i>
+                     <i class="text-secondary fas fa-user-tie"></i>
+                  </div>
+                  <span class="fs-1 fw-600 d-block my-3 ">450+</span>
+                  <h6 class="fw-600">Khách hàng</h6>
+               </div>
+            </div>
+            <div>
+               <p class=" text-secondary fw-bold text-center lh-base fs-3 mt-5">Tỉ Lệ Hài Lòng Tuyệt Đối</p>
+               <div class="text-center mt-3">
+                  <i class="f-color fs-4 far fa-star"></i>
+                  <i class="f-color fs-4 far fa-star"></i>
+                  <i class="f-color fs-4 far fa-star"></i>
+                  <i class="f-color fs-4 far fa-star"></i>
+                  <i class="f-color fs-4 far fa-star"></i>
+               </div>
+               <p class="text-center fs-6 fw-600 lh-sm mt-3">IOT Software VN sẽ đạt mốc 500 khách hàng và 700 dự án đã
+                  hoàn
+                  thành
+                  trong năm 2021.</p>
+               <p class="text-center fs-6 fw-600 lh-sm mt-3">Thỏa mãn tốt nhất nhu cầu của khách hàng, đảm bảo chất
+                  lượng
+                  sản phẩm và dịch vụ đã cung cấp.</p>
+               <p class="text-center fs-6 fw-600 lh-sm mt-3">Kể từ khi hoạt động, những dự án chủ yếu của chúng tôi đều
+                  do các
+                  khách hàng tin tưởng giới thiệu.
+               </p>
+            </div>
+
+
+
+         </div>
+      </section>
+
+      <section id="customer" class="py-5">
+         <div class="container">
+            <h6 class="text-center fs-5 mb-4 fw-600 fst-italic text-secondary text-decoration-underline">KHÁCH HÀNG TIÊU
+               BIỂU</h6>
+            <div class="customer-slick-slider">
+               <div class="customer-item d-flex justify-content-center align-items-center">
+                  <img class="img-fluid" src="./assets/img/logo-customer/ats.png" alt="khách hàng của chúng tôi"
+                     width="50%">
+               </div>
+               <div class="customer-item d-flex justify-content-center align-items-center">
+                  <img class="img-fluid" src="./assets/img/logo-customer/casumina.png" alt="khách hàng của chúng tôi"
+                     width="50%">
+               </div>
+               <div class="customer-item d-flex justify-content-center align-items-center">
+                  <img class="img-fluid" src="./assets/img/logo-customer/central-park-hotel.png"
+                     alt="khách hàng của chúng tôi" width="50%">
+               </div>
+               <div class="customer-item d-flex justify-content-center align-items-center">
+                  <img class="img-fluid" src="./assets/img/logo-customer/cong-ty-moi-truong-sonadezi.png"
+                     alt="khách hàng của chúng tôi" width="50%">
+               </div>
+               <div class="customer-item d-flex justify-content-center align-items-center">
+                  <img class="img-fluid" src="./assets/img/logo-customer/cp-group.png" alt="khách hàng của chúng tôi"
+                     width="50%">
+               </div>
+               <div class="customer-item d-flex justify-content-center align-items-center">
+                  <img class="img-fluid" src="./assets/img/logo-customer/damri.png" alt="khách hàng của chúng tôi"
+                     width="50%">
+               </div>
+               <div class="customer-item d-flex justify-content-center align-items-center">
+                  <img class="img-fluid" src="./assets/img/logo-customer/ats.png" alt="khách hàng của chúng tôi"
+                     width="50%">
+               </div>
+               <div class="customer-item d-flex justify-content-center align-items-center">
+                  <img class="img-fluid" src="./assets/img/logo-customer/ford-phu-my.png" alt="khách hàng của chúng tôi"
+                     width="50%">
+               </div>
+               <div class="customer-item d-flex justify-content-center align-items-center">
+                  <img class="img-fluid" src="./assets/img/logo-customer/sonadezi.png" alt="khách hàng của chúng tôi"
+                     width="50%">
+               </div>
+               <div class="customer-item d-flex justify-content-center align-items-center">
+                  <img class="img-fluid" src="./assets/img/logo-customer/taekwang.png" alt="khách hàng của chúng tôi"
+                     width="50%">
+               </div>
+               <div class="customer-item d-flex justify-content-center align-items-center">
+                  <img class="img-fluid" src="./assets/img/logo-customer/truong-cao-dang-y-te-dong-nai.png"
+                     alt="khách hàng của chúng tôi" width="50%">
+               </div>
+               <div class="customer-item d-flex justify-content-center align-items-center">
+                  <img class="img-fluid" src="./assets/img/logo-customer/ubnd-long-thanh.png"
+                     alt="khách hàng của chúng tôi" width="50%">
+               </div>
+               <div class="customer-item d-flex justify-content-center align-items-center">
+                  <img class="img-fluid" src="./assets/img/logo-customer/vinimex.png" alt="khách hàng của chúng tôi"
+                     width="50%">
+               </div>
+            </div>
+         </div>
+      </section>
+
+   </main>
+
+   <!-- FOOTER -->
+   <footer id="footer" class=" ">
+      <div class="container pt-100 pb-5">
+         <div class="row pb-4">
+
+            <div class="footer-image col-12 col-md-3  d-flex flex-column align-items-center justify-content-center">
+               <img class="img-fluid" src="./assets/img/logo-iotsoft-vn-filter.png" alt="iotsoftvn">
+               <div class="footer-social">
+                  <div class="d-flex flex-wrap justify-content-center ">
+
+                     <a href="#"
+                        class="footer-social-item mx-2 mt-3 d-flex align-items-center  justify-content-center text-decoration-none  rounded"><i
+                           class="fab fa-google "></i></a>
+                     <a href="#"
+                        class="footer-social-item mx-2 mt-3 d-flex align-items-center  justify-content-center text-decoration-none  rounded"><i
+                           class="fab fa-facebook-f"></i></a>
+
+                     <a href="#"
+                        class="footer-social-item mx-2 mt-3 d-flex align-items-center  justify-content-center text-decoration-none  rounded"><i
+                           class="fab fa-instagram"></i></a>
+
+                     <!-- <a href="#"
+                        class="footer-social-item mx-2 mt-3 d-flex align-items-center  justify-content-center text-decoration-none  rounded"><i
+                           class="fab fa-twitter"></i></a>
+
+                     <a href="#"
+                        class="footer-social-item mx-2 mt-3 d-flex align-items-center  justify-content-center text-decoration-none  rounded"><i
+                           class="fab fa-youtube"></i></a> -->
+                  </div>
+               </div>
+            </div>
+            <div class="footer-info mt-4 mt-md-0 col-12 col-md-9">
+               <h4 class="mb-4 fs-5 lh-base text-center">CÔNG TY TNHH GIẢI PHÁP CÔNG NGHỆ PHẦN MỀM KẾT NỐI SỐ VIỆT NAM
+               </h4>
+               <hr>
+               <ul class="list-unstyled">
+                  <li class="d-flex align-items-center">
+                     <i class="fas fa-phone"></i>
+                     <p class="ms-3 lh-lg">097 893 87 60</p>
+                  </li>
+                  <li class="d-flex align-items-center">
+                     <i class="fas fa-envelope"></i>
+                     <p class="ms-3 lh-lg">info@iotsoftvn.com</p>
+                  </li>
+                  <li class="d-flex align-items-center">
+                     <i class="fas fa-money-check"></i>
+                     <p class="ms-3 lh-lg">Mã Số Thuế : 3603552207</p>
+                  </li>
+                  <li class="d-flex">
+                     <i class="fas fa-map-marker-alt  lh-lg"></i>
+                     <p class="ms-3  lh-lg">Trụ Sở Công ty : 13/3D Huỳnh Văn Nghệ, Khu Phố 2, Thành phố Biên Hòa, Đồng
+                        Nai</p>
+                  </li>
+
+               </ul>
+            </div>
+
+         </div>
+      </div>
+      <div class="footer-copy-right text-light text-center p-4 lh-base ">
+         IOT SOFTWARE VN © All Rights Are Reserved 2021 <a class="d-block text-decoration-none foreign-color"
+            href="https://www.iotsoftvn.com/">www.iotsoftvn.com</a>
+      </div>
+   </footer>
+   <!-- End FOOTER -->
+   <!-- Js -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.33.2/tsparticles.min.js"
+      integrity="sha512-u9rLI49Jt4AzqSrLLYLBpGSQPtscmNTUupWuVIzGNYSWylC/C0WETVGF1JqWS5bODRriRKl1oADUUAj2F17/MA=="
+      crossorigin="anonymous"></script>
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="./vendors/jquerys/jquery.countup.min.js"></script>
+   <script src="./vendors/jquerys/jquery.waypoints.min.js"></script>
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+   <script src="vendors/aos-library/aos.js"></script>
+   <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

@@ -125,6 +125,34 @@ $(document).ready(function(){
    })
 })
 
+$(document).ready(function(){
+
+   $('.customer-slick-slider').slick({
+      infinite: true,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      speed: 1000,
+      autoplay: true,
+      autoplaySpeed: 1000,
+      arrows: false,
+      responsive: [
+         {
+            breakpoint: 992,
+            settings: {
+               slidesToShow: 4,
+            }
+         },
+         {
+            breakpoint: 768,
+            settings: {
+               slidesToShow: 3,
+            }
+         },
+         
+      ]
+   })
+})
+
 // ----- Project counting
 
 $('.project-counting').countUp({

@@ -1,6 +1,7 @@
 :root{
    --primary-color: #FED152;
    --foreign-color: #ff8a00;
+   --blue-color: #0D6EFD;
    --header-height: 100px;
 }
 
@@ -44,7 +45,7 @@ html {
 -----------------------------------------------------------
 */
 .hov-img-zoom {
-	/* overflow: hidden; */
+	overflow: hidden;
    cursor: pointer;
 }
 .hov-img-zoom img{
